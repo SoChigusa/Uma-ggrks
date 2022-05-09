@@ -1,11 +1,25 @@
-function genTable(json) {
+function genTable(json, id) {
 
-	for(var i in json) {
+	// remove previous table (if any)
+	maintable = document.getElementById('maintable');
+	while(maintable.firstChild){
+		maintable.removeChild(maintable.firstChild);
+	}
 
+	// filter the data by input id
+	var data = json.filter(function(item, index){
+  	if ((item.ID).indexOf(id) >= 0) return true;
+	});
+
+	for(var i in data) {
+		var ev = data[i];
+
+		// event title
 		var h3 = document.createElement('h3');
-		h3.textContent = json[i].Title;
+		h3.textContent = '['+ev.ID+'] '+ev.Title;
 		document.getElementById('maintable').appendChild(h3);
 
+		// make table
 		var table = document.createElement('table');
 		var tr = document.createElement('tr');
 		var th = document.createElement('th');
@@ -16,22 +30,37 @@ function genTable(json) {
 		tr.appendChild(th);
 		table.appendChild(tr);
 
-		for(var j in json[i].Choices) {
+		// list of choices and results
+		for(var j in ev.Choices) {
+			var chs = ev.Choices[j];
 			var tr = document.createElement('tr');
 			var td = document.createElement('td');
-			td.textContent = json[i].Choices[j].Choice;
+			td.textContent = chs.Choice;
 			tr.appendChild(td);
 			var td = document.createElement('td');
-			td.innerHTML = json[i].Choices[j].Results.join('<br>');
+			td.innerHTML = chs.Results.join('<br>');
 			tr.appendChild(td);
 			table.appendChild(tr);
 		}
 
-		document.getElementById('maintable').appendChild(table);
+		maintable.appendChild(table);
 	}
 
 }
 
+// update method
+function inputChange(event){
+  id = event.currentTarget.value;
+	fetch('https://sochigusa.github.io/Uma-ggrks/json/choices.json')
+		.then(response => response.json())
+		.then(json => genTable(json, id))
+}
+
+// update on input
+let text = document.getElementById('idText');
+text.addEventListener('input', inputChange);
+
+// first table
 fetch('https://sochigusa.github.io/Uma-ggrks/json/choices.json')
 	.then(response => response.json())
-	.then(json => genTable(json))
+	.then(json => genTable(json, ''))
