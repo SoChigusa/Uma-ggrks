@@ -1,3 +1,15 @@
+
+// judge JSON format
+function is_json(data) {
+	try {
+		JSON.parse(data);
+	} catch (error) {
+		return false;
+	}
+	return true;
+}
+
+// generate table
 function genTable(json, id) {
 
 	// remove previous table (if any)
@@ -38,7 +50,19 @@ function genTable(json, id) {
 			td.textContent = chs.Choice;
 			tr.appendChild(td);
 			var td = document.createElement('td');
-			td.innerHTML = chs.Results.join('<br>');
+
+			// Success / Fail-type events
+			if(chs.Results instanceof Array) {
+				td.innerHTML = chs.Results.join('<br>');
+			} else {
+				tdelem = "";
+				for(key in chs.Results) {
+					tdelem += '<br><b>'+key+'</b><br>';
+					tdelem += chs.Results[key].join('<br>')
+				}
+				td.innerHTML = tdelem.slice(4);
+			}
+
 			tr.appendChild(td);
 			table.appendChild(tr);
 		}
@@ -48,7 +72,7 @@ function genTable(json, id) {
 
 }
 
-// update method
+// update with cache
 function inputChange(event){
   id = event.currentTarget.value;
 	fetch('https://sochigusa.github.io/Uma-ggrks/json/choices.json')
@@ -61,6 +85,6 @@ let text = document.getElementById('idText');
 text.addEventListener('input', inputChange);
 
 // first table
-fetch('https://sochigusa.github.io/Uma-ggrks/json/choices.json')
+fetch('https://sochigusa.github.io/Uma-ggrks/json/choices.json', {cache:'no-store'})
 	.then(response => response.json())
 	.then(json => genTable(json, ''))
