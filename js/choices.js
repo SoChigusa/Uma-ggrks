@@ -2,12 +2,6 @@
 // generate table
 function genTable(json, id) {
 
-	// remove previous table (if any)
-	maintable = document.getElementById('maintable');
-	while(maintable.firstChild){
-		maintable.removeChild(maintable.firstChild);
-	}
-
 	// filter the data by input id
 	var data = json.filter(function(item, index){
   	if ((item.ID).indexOf(id) >= 0) return true;
@@ -65,16 +59,26 @@ function genTable(json, id) {
 // update with cache
 function inputChange(event){
   id = event.currentTarget.value;
-	fetch('https://sochigusa.github.io/Uma-ggrks/json/spd.json')
-		.then(response => response.json())
-		.then(json => genTable(json, id))
+
+	// remove previous table (if any)
+	maintable = document.getElementById('maintable');
+	while(maintable.firstChild){
+		maintable.removeChild(maintable.firstChild);
+	}
+
+	// table content
+	for(const card_type of ['spd', 'stm', 'pwr', 'knj', 'ksk']) {
+		fetch('https://sochigusa.github.io/Uma-ggrks/json/'+card_type+'.json')
+			.then(response => response.json())
+			.then(json => genTable(json, id))
+	}
+}
+
+// first load of json files
+for(const card_type of ['spd', 'stm', 'pwr', 'knj', 'ksk']) {
+	fetch('https://sochigusa.github.io/Uma-ggrks/json/'+card_type+'.json', {cache:'no-store'})
 }
 
 // update on input
 let text = document.getElementById('idText');
 text.addEventListener('input', inputChange);
-
-// first table
-fetch('https://sochigusa.github.io/Uma-ggrks/json/spd.json', {cache:'no-store'})
-	.then(response => response.json())
-	.then(json => genTable(json, ''))

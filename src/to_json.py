@@ -21,28 +21,31 @@ def to_dictionary(title, id, charas, choices, results):
     mydict = dict([("Title", title), ("ID", id), ("Event", event), ("Choices", chdict)])
     return mydict
 
-# open html file
-with open('html/spt/spd.html', 'r') as html_file:
-    html = html_file.read()
-    soup = BeautifulSoup(html, 'html.parser')
+# convert html to json
+def html_to_json(src_html, src_json):
 
-# parse
-card_dict = []
-for card in soup.body.find_all('div', recursive=False):
-    for event in card.select('.umamusume-event-checker__event'):
-        title = event.select('.umamusume-event-checker__event--title')
-        if(title != []): # omit .umamusume-event-checker__event no-event
-            title = title[0].text
-            id = event.select('.umamusume-event-checker__event--id')[0].text
-            charas = event.select('.umamusume-event-checker__event--character')[0]
-            charas = [chara.text for chara in charas.find_all('a')]
-            choices = [ch.select('.umamusume-event-checker__choice--body')[0].text for ch in event.find_all('tr')]
-            results = [ch.select('.umamusume-event-checker__choice--result')[0] for ch in event.find_all('tr')]
-            card_dict.append(to_dictionary(title, id, charas, choices, results))
+    # open html file
+    with open(src_html, 'r') as html_file:
+        html = html_file.read()
+        soup = BeautifulSoup(html, 'html.parser')
 
-# save as json
-with open('json/spd.json', 'w') as f:
-    json.dump(card_dict, f, indent=2)
+    # parse
+    card_dict = []
+    for card in soup.body.find_all('div', recursive=False):
+        for event in card.select('.umamusume-event-checker__event'):
+            title = event.select('.umamusume-event-checker__event--title')
+            if(title != []): # omit .umamusume-event-checker__event no-event
+                title = title[0].text
+                id = event.select('.umamusume-event-checker__event--id')[0].text
+                charas = event.select('.umamusume-event-checker__event--character')[0]
+                charas = [chara.text for chara in charas.find_all('a')]
+                choices = [ch.select('.umamusume-event-checker__choice--body')[0].text for ch in event.find_all('tr')]
+                results = [ch.select('.umamusume-event-checker__choice--result')[0] for ch in event.find_all('tr')]
+                card_dict.append(to_dictionary(title, id, charas, choices, results))
 
-# with open('/Users/SoChigusa/works/Uma-ggrks/json/spd.json', mode='w') as f:
-#     f.write(json)
+    # save as json
+    with open(src_json, 'w') as f:
+        json.dump(card_dict, f, indent=2)
+
+for card_type in ['spd', 'stm', 'pwr', 'knj', 'ksk']:
+    html_to_json('html/spt/'+card_type+'.html', 'json/'+card_type+'.json')
