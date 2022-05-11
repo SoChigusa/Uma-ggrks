@@ -1,14 +1,4 @@
 
-// judge JSON format
-function is_json(data) {
-	try {
-		JSON.parse(data);
-	} catch (error) {
-		return false;
-	}
-	return true;
-}
-
 // generate table
 function genTable(json, id) {
 
@@ -75,7 +65,7 @@ function genTable(json, id) {
 // update with cache
 function inputChange(event){
   id = event.currentTarget.value;
-	fetch('https://sochigusa.github.io/Uma-ggrks/json/choices.json')
+	fetch('https://sochigusa.github.io/Uma-ggrks/json/spd.json')
 		.then(response => response.json())
 		.then(json => genTable(json, id))
 }
@@ -85,6 +75,6 @@ let text = document.getElementById('idText');
 text.addEventListener('input', inputChange);
 
 // first table
-fetch('https://sochigusa.github.io/Uma-ggrks/json/choices.json', {cache:'no-store'})
+fetch('https://sochigusa.github.io/Uma-ggrks/json/spd.json', {cache:'no-store'})
 	.then(response => response.json())
 	.then(json => genTable(json, ''))
