@@ -1,0 +1,56 @@
+
+.content {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+  width: 100%;
+	table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+	border: solid 4px #778ca3;
+	border-radius: 20px;
+}
+
+th {
+	padding: 10px 0;
+	background: #778ca3;
+	color: #ffffff;
+}
+
+th.choices {
+	width: 40%;
+	border-radius: 10px 0 0 0;
+}
+
+th.results {
+	width: 60%;
+	border-radius: 0 10px 0 0;
+}
+
+td {
+  padding: 10px 0;
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #eee
+}
+
+table tr:last-child td:first-child{
+  border-radius: 0 0 0 16px;
+}
+
+table tr:last-child td:last-child{
+  border-radius: 0 0 16px 0;
+}
+
+@media screen and (max-width: 480px) {
+	.content {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

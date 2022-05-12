@@ -20,9 +20,11 @@ function genTable(json, id) {
 		var tr = document.createElement('tr');
 		var th = document.createElement('th');
 		th.textContent = '選択肢';
+		th.classList.add('choices');
 		tr.appendChild(th);
 		var th = document.createElement('th');
 		th.textContent = '結果';
+		th.classList.add('results');
 		tr.appendChild(th);
 		table.appendChild(tr);
 
