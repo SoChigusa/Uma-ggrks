@@ -1,3 +1,4 @@
+import re
 import json
 from bs4 import BeautifulSoup
 
@@ -17,7 +18,13 @@ def to_dictionary(title, id, charas, choices, results):
             reslist = [res.text.removeprefix('・') for res in result.find_all('div')]
             chdict.append(dict([("Choice", choice), ("Results", reslist)]))
 
-    event = dict([("Type", "サポートカード"), ("Character", charas)])
+    chdat = []
+    typedict = [] # deform characters structure
+    for chara in charas:
+        chdat = re.split('[\(\)]', chara)
+        typedict.append(dict([("Rarity", chdat[1]), ("Name", chdat[2].strip('［］'))]))
+
+    event = dict([("Type", "サポートカード"), ("Character", chdat[0]), ("CardType", typedict)])
     mydict = dict([("Title", title), ("ID", id), ("Event", event), ("Choices", chdict)])
     return mydict
 
