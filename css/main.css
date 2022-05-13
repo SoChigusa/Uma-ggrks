@@ -5,6 +5,12 @@
 	margin-right: auto;
 }
 
+/* event type strings */
+.spd {
+	color: #25ACFD;
+}
+
+/* main table styles */
 table {
   width: 100%;
 	table-layout: fixed;

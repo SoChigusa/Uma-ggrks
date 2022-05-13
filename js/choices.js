@@ -15,6 +15,12 @@ function genTable(json, id) {
 		h3.textContent = '['+ev.ID+'] '+ev.Title;
 		document.getElementById('maintable').appendChild(h3);
 
+		// card type
+		var p = document.createElement('p');
+		p.textContent = ev.Event.Character;
+		p.classList.add('spd');
+		document.getElementById('maintable').appendChild(p);
+
 		// make table
 		var table = document.createElement('table');
 		var tr = document.createElement('tr');
