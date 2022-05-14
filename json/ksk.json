@@ -1213,10 +1213,17 @@
     "Choices": [
       {
         "Choice": "\u81ea\u5206\u306e\u30b9\u30bf\u30a4\u30eb\u3092\u8cab\u3051\u308b\u3063\u3066\u3059\u3054\u3044",
-        "Results": [
-          "\u4f53\u529b+15",
-          "\u30df\u30b9\u30bf\u30fc\u30b7\u30fc\u30d3\u30fc\u306e\u7d46\u30b2\u30fc\u30b8+5"
-        ]
+        "Results": {
+          "\u6210\u529f": [
+            "\u4f53\u529b+20",
+            "\u300c\u30b3\u30fc\u30ca\u30fc\u56de\u5fa9\u25ef\u300d\u306e\u30d2\u30f3\u30c8Lv+2",
+            "\u30df\u30b9\u30bf\u30fc\u30b7\u30fc\u30d3\u30fc\u306e\u7d46\u30b2\u30fc\u30b8+10"
+          ],
+          "\u5931\u6557": [
+            "\u4f53\u529b+15",
+            "\u30df\u30b9\u30bf\u30fc\u30b7\u30fc\u30d3\u30fc\u306e\u7d46\u30b2\u30fc\u30b8+5"
+          ]
+        }
       },
       {
         "Choice": "\u2026\u2026\u7121\u7406\u306f\u3057\u3066\u3044\u306a\u3044\u304b\uff1f",
