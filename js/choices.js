@@ -1,25 +1,34 @@
 
+// identify support card type
+function cardType(name) {
+	var data = card_type_json.filter(function(item, index){
+		if(item.Cards.indexOf(name) >= 0) return true;
+	});
+	return data[0].Type;
+}
+
 // generate table
 function genTable(json, id) {
 
 	// filter the data by input id
 	var data = json.filter(function(item, index){
-  	if ((item.ID).indexOf(id) >= 0) return true;
+  	if((item.ID).indexOf(id) >= 0) return true;
 	});
 
-	for(var i in data) {
-		var ev = data[i];
-
+	for(var ev of data) {
 		// event title
 		var h3 = document.createElement('h3');
 		h3.textContent = '['+ev.ID+'] '+ev.Title;
 		document.getElementById('maintable').appendChild(h3);
 
 		// card type
-		var p = document.createElement('p');
-		p.textContent = ev.Event.Character;
-		p.classList.add('spd');
-		document.getElementById('maintable').appendChild(p);
+		for(var type of ev.Event.CardType) {
+			var name = ev.Event.Character+'('+type.Rarity+')'+'［'+type.Name+'］';
+			var p = document.createElement('p');
+			p.textContent = name;
+			p.classList.add(cardType(name));
+			document.getElementById('maintable').appendChild(p);
+		}
 
 		// make table
 		var table = document.createElement('table');
@@ -35,8 +44,7 @@ function genTable(json, id) {
 		table.appendChild(tr);
 
 		// list of choices and results
-		for(var j in ev.Choices) {
-			var chs = ev.Choices[j];
+		for(var chs of ev.Choices) {
 			var tr = document.createElement('tr');
 			var td = document.createElement('td');
 			td.textContent = chs.Choice;
@@ -76,11 +84,17 @@ function inputChange(event){
 
 	// table content
 	for(const card_type of ['spd', 'stm', 'pwr', 'knj', 'ksk']) {
-		fetch('https://sochigusa.github.io/Uma-ggrks/json/'+card_type+'.json')
+		fetch('https://sochigusa.github.io/Uma-ggrks/json/'+card_type+'.json', {cache: 'force-cache'})
 			.then(response => response.json())
 			.then(json => genTable(json, id))
 	}
 }
+
+// load and save card type information
+let card_type_json;
+fetch('https://sochigusa.github.io/Uma-ggrks/json/card_type.json', {cache:'no-store'})
+	.then(response => response.json())
+	.then(json => card_type_json = json);
 
 // first load of json files
 for(const card_type of ['spd', 'stm', 'pwr', 'knj', 'ksk']) {

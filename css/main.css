@@ -6,8 +6,28 @@
 }
 
 /* event type strings */
-.spd {
+.speed {
 	color: #25ACFD;
+}
+
+.stamina {
+	color: #FF7865;
+}
+
+.power {
+	color: #FFAE1B;
+}
+
+.konjo {
+	color: #FF6CAD;
+}
+
+.kashikosa {
+	color: #07C68B;
+}
+
+.friend {
+	color: #FFBC1A;
 }
 
 /* main table styles */
