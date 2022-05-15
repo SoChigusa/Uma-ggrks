@@ -73,7 +73,8 @@
         "Choice": "\u81ea\u529b\u3067\u624b\u306b\u5165\u308c\u308b\u3079\u304d",
         "Results": [
           "\u4f53\u529b\u306e\u6700\u5927\u5024+4",
-          "\u6839\u6027+5"
+          "\u6839\u6027+5",
+          "\u30a8\u30a2\u30b7\u30e3\u30ab\u30fc\u30eb\u306e\u7d46\u30b2\u30fc\u30b8+5"
         ]
       }
     ]
@@ -2654,69 +2655,6 @@
         "Results": [
           "\u3084\u308b\u6c17\u22121",
           "\u300c\u4e00\u5339\u72fc\u300d\u306e\u30d2\u30f3\u30c8Lv+1"
-        ]
-      }
-    ]
-  },
-  {
-    "Title": "\u30a4\u30a8\u30b9\uff01\u30ec\u30c3\u30c4\u30fb\u30cf\u30b0\u2606",
-    "ID": "ies",
-    "Event": {
-      "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
-      "Character": "\u30bf\u30a4\u30ad\u30b7\u30e3\u30c8\u30eb",
-      "CardType": [
-        {
-          "Rarity": "R",
-          "Name": "\u30c8\u30ec\u30bb\u30f3\u5b66\u5712"
-        }
-      ]
-    },
-    "Choices": [
-      {
-        "Choice": "\u30b9\u30d4\u30fc\u30c9\u304b\u306a",
-        "Results": [
-          "\u30b9\u30d4\u30fc\u30c9+10",
-          "\u30bf\u30a4\u30ad\u30b7\u30e3\u30c8\u30eb\u306e\u7d46\u30b2\u30fc\u30b8+5"
-        ]
-      },
-      {
-        "Choice": "\u30d1\u30ef\u30fc\u304b\u306a",
-        "Results": [
-          "\u30b9\u30d4\u30fc\u30c9+5",
-          "\u30d1\u30ef\u30fc+5",
-          "\u30bf\u30a4\u30ad\u30b7\u30e3\u30c8\u30eb\u306e\u7d46\u30b2\u30fc\u30b8+5"
-        ]
-      }
-    ]
-  },
-  {
-    "Title": "\u30aa\u30a5\uff01\u30c8\u30a5\u30ca\u30a4\u30c8\u30fb\u30d1\u30fc\u30c6\u30a3\u30fc\u2606",
-    "ID": "out",
-    "Event": {
-      "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
-      "Character": "\u30bf\u30a4\u30ad\u30b7\u30e3\u30c8\u30eb",
-      "CardType": [
-        {
-          "Rarity": "R",
-          "Name": "\u30c8\u30ec\u30bb\u30f3\u5b66\u5712"
-        }
-      ]
-    },
-    "Choices": [
-      {
-        "Choice": "\u9060\u56de\u308a\u3057\u3066\u5168\u529b\u30c0\u30c3\u30b7\u30e5\u3060\uff01",
-        "Results": [
-          "\u4f53\u529b\u221210",
-          "\u30b9\u30d4\u30fc\u30c9+5",
-          "\u30d1\u30ef\u30fc+10",
-          "\u30bf\u30a4\u30ad\u30b7\u30e3\u30c8\u30eb\u306e\u7d46\u30b2\u30fc\u30b8+5"
-        ]
-      },
-      {
-        "Choice": "\u96c6\u56e3\u3092\u304b\u304d\u5206\u3051\u308b\u30a4\u30e1\u30fc\u30b8\u3067\u8d70\u308d\u3046",
-        "Results": [
-          "\u300c\u629c\u3051\u51fa\u3057\u6e96\u5099\u300d\u306e\u30d2\u30f3\u30c8Lv+1",
-          "\u30bf\u30a4\u30ad\u30b7\u30e3\u30c8\u30eb\u306e\u7d46\u30b2\u30fc\u30b8+5"
         ]
       }
     ]

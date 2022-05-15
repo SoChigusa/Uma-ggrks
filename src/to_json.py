@@ -3,7 +3,7 @@ import json
 from bs4 import BeautifulSoup
 
 # convert parse results into dictionary
-def to_dictionary(title, id, charas, choices, results):
+def to_dictionary(title, id, charas, choices, results, type):
     chdict = [] # Deform results structure
     for choice, result in zip(choices, results):
         header = result.select('.umamusume-event-checker__choice--result-header')
@@ -18,18 +18,23 @@ def to_dictionary(title, id, charas, choices, results):
             reslist = [res.text.removeprefix('・') for res in result.find_all('div')]
             chdict.append(dict([("Choice", choice), ("Results", reslist)]))
 
-    chdat = []
-    typedict = [] # deform characters structure
-    for chara in charas:
-        chdat = re.split('[\(\)]', chara)
-        typedict.append(dict([("Rarity", chdat[1]), ("Name", chdat[2].strip('［］'))]))
+    event = {}
+    if(type["Type"] == "Support Card"):
+        chdat = []
+        typedict = [] # deform characters structure
+        for chara in charas:
+            chdat = re.split('[\(\)]', chara)
+            typedict.append(dict([("Rarity", chdat[1]), ("Name", chdat[2].strip('［］'))]))
+        event = dict([("Type", "サポートカード"), ("Character", chdat[0]), ("CardType", typedict)])
+    elif(type["Type"] == "Main Scenario"):
+        chdat = re.split('[［]', charas[0])
+        event = dict([("Type", "メインシナリオ"), ("Scenario", chdat[0])])
 
-    event = dict([("Type", "サポートカード"), ("Character", chdat[0]), ("CardType", typedict)])
     mydict = dict([("Title", title), ("ID", id), ("Event", event), ("Choices", chdict)])
     return mydict
 
 # convert html to json
-def html_to_json(src_html, src_json):
+def html_to_json(src_html, src_json, type):
 
     # open html file
     with open(src_html, 'r') as html_file:
@@ -48,11 +53,15 @@ def html_to_json(src_html, src_json):
                 charas = [chara.text for chara in charas.find_all('a')]
                 choices = [ch.select('.umamusume-event-checker__choice--body')[0].text for ch in event.find_all('tr')]
                 results = [ch.select('.umamusume-event-checker__choice--result')[0] for ch in event.find_all('tr')]
-                card_dict.append(to_dictionary(title, id, charas, choices, results))
+                card_dict.append(to_dictionary(title, id, charas, choices, results, type))
 
     # save as json
     with open(src_json, 'w') as f:
         json.dump(card_dict, f, indent=2)
 
+# support card events
 for card_type in ['spd', 'stm', 'pwr', 'knj', 'ksk']:
-    html_to_json('html/spt/'+card_type+'.html', 'json/'+card_type+'.json')
+    html_to_json('html/spt/'+card_type+'.html', 'json/'+card_type+'.json', {"Type": "Support Card"})
+
+# main scenario events
+html_to_json('html/scenario.html', 'json/scenario.json', {"Type": "Main Scenario"})

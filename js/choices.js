@@ -8,7 +8,7 @@ function cardType(name) {
 }
 
 // generate table
-function genTable(json, id) {
+function genTable(json, id, type) {
 
 	// filter the data by input id
 	var data = json.filter(function(item, index){
@@ -21,12 +21,21 @@ function genTable(json, id) {
 		h3.textContent = '['+ev.ID+'] '+ev.Title;
 		document.getElementById('maintable').appendChild(h3);
 
-		// card type
-		for(var type of ev.Event.CardType) {
-			var name = ev.Event.Character+'('+type.Rarity+')'+'［'+type.Name+'］';
+		// card type [support card only]
+		if(type == "Support Card") {
+			for(var type of ev.Event.CardType) {
+				var name = ev.Event.Character+'('+type.Rarity+')'+'［'+type.Name+'］';
+				var p = document.createElement('p');
+				p.textContent = name;
+				p.classList.add(cardType(name));
+				document.getElementById('maintable').appendChild(p);
+			}
+		}
+
+		// scenario type [main scenario only]
+		if(type == "Main Scenario") {
 			var p = document.createElement('p');
-			p.textContent = name;
-			p.classList.add(cardType(name));
+			p.textContent = ev.Event.Scenario;
 			document.getElementById('maintable').appendChild(p);
 		}
 
@@ -86,8 +95,11 @@ function inputChange(event){
 	for(const card_type of ['spd', 'stm', 'pwr', 'knj', 'ksk']) {
 		fetch('https://sochigusa.github.io/Uma-ggrks/json/'+card_type+'.json', {cache: 'force-cache'})
 			.then(response => response.json())
-			.then(json => genTable(json, id))
+			.then(json => genTable(json, id, "Support Card"))
 	}
+	fetch('https://sochigusa.github.io/Uma-ggrks/json/scenario.json', 	{cache:'force-cache'})
+		.then(response => response.json())
+		.then(json => genTable(json, id, "Main Scenario"))
 }
 
 // load and save card type information
@@ -100,6 +112,7 @@ fetch('https://sochigusa.github.io/Uma-ggrks/json/card_type.json', {cache:'no-st
 for(const card_type of ['spd', 'stm', 'pwr', 'knj', 'ksk']) {
 	fetch('https://sochigusa.github.io/Uma-ggrks/json/'+card_type+'.json', {cache:'no-store'})
 }
+fetch('https://sochigusa.github.io/Uma-ggrks/json/scenario.json', {cache:'no-store'})
 
 // update on input
 let text = document.getElementById('idText');
