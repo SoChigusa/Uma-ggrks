@@ -23,8 +23,15 @@ function genTable(json, id, type) {
 		h3.textContent = '['+ev.ID+'] '+ev.Title;
 		document.getElementById('maintable').appendChild(h3);
 
+		// character [character only]
+		if(type == "Character") {
+			var p = document.createElement('p');
+			p.textContent = ev.Event.Character;
+			document.getElementById('maintable').appendChild(p);
+		}
+
 		// card type [support card only]
-		if(type == "Support Card") {
+		else if(type == "Support Card") {
 			for(var ev_type of ev.Event.CardType) {
 				var name = ev.Event.Character+'('+ev_type.Rarity+')'+'［'+ev_type.Name+'］';
 				var p = document.createElement('p');
@@ -94,6 +101,11 @@ function inputChange(event){
 	}
 
 	// table content
+	for(const character_name of ['mzrr']) {
+		fetch('https://sochigusa.github.io/Uma-ggrks/json/'+character_name+'.json', {cache: 'force-cache'})
+			.then(response => response.json())
+			.then(json => genTable(json, id, "Character"))
+	}
 	for(const card_type of ['spd', 'stm', 'pwr', 'knj', 'ksk']) {
 		fetch('https://sochigusa.github.io/Uma-ggrks/json/'+card_type+'.json', {cache: 'force-cache'})
 			.then(response => response.json())
@@ -111,6 +123,9 @@ fetch('https://sochigusa.github.io/Uma-ggrks/json/card_type.json', {cache:'no-st
 	.then(json => card_type_json = json);
 
 // first load of json files
+for(const character_name of ['mzrr']) {
+	fetch('https://sochigusa.github.io/Uma-ggrks/json/'+character_name+'.json', {cache:'no-store'})
+}
 for(const card_type of ['spd', 'stm', 'pwr', 'knj', 'ksk']) {
 	fetch('https://sochigusa.github.io/Uma-ggrks/json/'+card_type+'.json', {cache:'no-store'})
 }
