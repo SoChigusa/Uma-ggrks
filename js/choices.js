@@ -16,6 +16,8 @@ function genTable(json, id, type) {
 	});
 
 	for(var ev of data) {
+		// console.log(ev);
+
 		// event title
 		var h3 = document.createElement('h3');
 		h3.textContent = '['+ev.ID+'] '+ev.Title;
@@ -23,8 +25,8 @@ function genTable(json, id, type) {
 
 		// card type [support card only]
 		if(type == "Support Card") {
-			for(var type of ev.Event.CardType) {
-				var name = ev.Event.Character+'('+type.Rarity+')'+'［'+type.Name+'］';
+			for(var ev_type of ev.Event.CardType) {
+				var name = ev.Event.Character+'('+ev_type.Rarity+')'+'［'+ev_type.Name+'］';
 				var p = document.createElement('p');
 				p.textContent = name;
 				p.classList.add(cardType(name));
@@ -33,7 +35,7 @@ function genTable(json, id, type) {
 		}
 
 		// scenario type [main scenario only]
-		if(type == "Main Scenario") {
+		else if (type == "Main Scenario") {
 			var p = document.createElement('p');
 			p.textContent = ev.Event.Scenario;
 			document.getElementById('maintable').appendChild(p);
