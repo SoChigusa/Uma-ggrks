@@ -101,7 +101,7 @@ function inputChange(event){
 	}
 
 	// table content
-	for(const character_name of ['ain','agnst','agnsd','gor','mzrr']) {
+	for(const character_name of ['ain','agnst','agnsd','gor','mzrr','diw','tmm','tie']) {
 		fetch('https://sochigusa.github.io/Uma-ggrks/json/'+character_name+'.json', {cache: 'force-cache'})
 			.then(response => response.json())
 			.then(json => genTable(json, id, "Character"))
@@ -123,7 +123,7 @@ fetch('https://sochigusa.github.io/Uma-ggrks/json/card_type.json', {cache:'no-st
 	.then(json => card_type_json = json);
 
 // first load of json files
-for(const character_name of ['ain','agnst','agnsd','gor','mzrr']) {
+for(const character_name of ['ain','agnst','agnsd','gor','mzrr','diw','tmm','tie']) {
 	fetch('https://sochigusa.github.io/Uma-ggrks/json/'+character_name+'.json', {cache:'no-store'})
 }
 for(const card_type of ['spd', 'stm', 'pwr', 'knj', 'ksk']) {
