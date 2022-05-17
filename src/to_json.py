@@ -62,7 +62,7 @@ def html_to_json(src_html, src_json, type):
         json.dump(card_dict, f, indent=2)
 
 # character events
-for character in ['mzrr']:
+for character in ['ain','agnst','agnsd','gor','mzrr']:
     html_to_json('html/iks/'+character+'.html', 'json/'+character+'.json', {"Type": "Character"})
 
 # support card events
