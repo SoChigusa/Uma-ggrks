@@ -4,6 +4,7 @@ function cardType(name) {
 	var data = card_type_json.filter(function(item, index){
 		if(item.Cards.indexOf(name) >= 0) return true;
 	});
+	console.log(name);
 	return data[0].Type;
 }
 
@@ -102,18 +103,12 @@ function inputChange(event){
 
 	// table content
 	for(const character_name of ['ain','agnst','agnsd','gor','mzrr','diw','tmm','tie']) {
-		fetch('https://sochigusa.github.io/Uma-ggrks/json/'+character_name+'.json', {cache: 'force-cache'})
-			.then(response => response.json())
-			.then(json => genTable(json, id, "Character"))
+		genTable(event_json[character_name], id, "Character");
 	}
 	for(const card_type of ['spd', 'stm', 'pwr', 'knj', 'ksk']) {
-		fetch('https://sochigusa.github.io/Uma-ggrks/json/'+card_type+'.json', {cache: 'force-cache'})
-			.then(response => response.json())
-			.then(json => genTable(json, id, "Support Card"))
+		genTable(event_json[card_type], id, "Support Card");
 	}
-	fetch('https://sochigusa.github.io/Uma-ggrks/json/scenario.json', 	{cache:'force-cache'})
-		.then(response => response.json())
-		.then(json => genTable(json, id, "Main Scenario"))
+	genTable(event_json['scenario'], id, "Main Scenario");
 }
 
 // clear textbox on enter key
@@ -124,20 +119,24 @@ function keydown(event) {
 	}
 }
 
-// load and save card type information
-let card_type_json;
+// load and save card json database
+let card_type_json, event_json = {};
 fetch('https://sochigusa.github.io/Uma-ggrks/json/card_type.json', {cache:'no-store'})
 	.then(response => response.json())
 	.then(json => card_type_json = json);
-
-// first load of json files
 for(const character_name of ['ain','agnst','agnsd','gor','mzrr','diw','tmm','tie']) {
 	fetch('https://sochigusa.github.io/Uma-ggrks/json/'+character_name+'.json', {cache:'no-store'})
+		.then(response => response.json())
+		.then(json => event_json[character_name] = json);
 }
 for(const card_type of ['spd', 'stm', 'pwr', 'knj', 'ksk']) {
 	fetch('https://sochigusa.github.io/Uma-ggrks/json/'+card_type+'.json', {cache:'no-store'})
+		.then(response => response.json())
+		.then(json => event_json[card_type] = json);
 }
 fetch('https://sochigusa.github.io/Uma-ggrks/json/scenario.json', {cache:'no-store'})
+	.then(response => response.json())
+	.then(json => event_json['scenario'] = json);
 
 // update on input
 let text = document.getElementById('idText');
