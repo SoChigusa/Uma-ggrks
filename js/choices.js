@@ -90,7 +90,7 @@ function genTable(json, id, type) {
 
 }
 
-// update with cache
+// update table on input
 function inputChange(event){
   id = event.currentTarget.value;
 
@@ -116,6 +116,14 @@ function inputChange(event){
 		.then(json => genTable(json, id, "Main Scenario"))
 }
 
+// clear textbox on enter key
+function keydown(event) {
+	if(event.key == 'Enter') {
+		document.getElementById('idText').value = '';
+		inputChange(event);
+	}
+}
+
 // load and save card type information
 let card_type_json;
 fetch('https://sochigusa.github.io/Uma-ggrks/json/card_type.json', {cache:'no-store'})
@@ -134,3 +142,4 @@ fetch('https://sochigusa.github.io/Uma-ggrks/json/scenario.json', {cache:'no-sto
 // update on input
 let text = document.getElementById('idText');
 text.addEventListener('input', inputChange);
+text.addEventListener('keydown', keydown);
