@@ -1,3 +1,4 @@
+import collections
 import re
 import json
 from bs4 import BeautifulSoup
@@ -61,13 +62,22 @@ def html_to_json(src_html, src_json, type):
     with open(src_json, 'w') as f:
         json.dump(card_dict, f, indent=2)
 
+    return card_dict
+
+# preserve whole dictionary for duplication check
+card_dict_all = []
+
 # character events
 for character in ['ain','agnst','agnsd','gor','mzrr','diw','tmm','tie']:
-    html_to_json('html/iks/'+character+'.html', 'json/'+character+'.json', {"Type": "Character"})
+    card_dict_all += html_to_json('html/iks/'+character+'.html', 'json/'+character+'.json', {"Type": "Character"})
 
 # support card events
 for card_type in ['spd', 'stm', 'pwr', 'knj', 'ksk']:
-    html_to_json('html/spt/'+card_type+'.html', 'json/'+card_type+'.json', {"Type": "Support Card"})
+    card_dict_all += html_to_json('html/spt/'+card_type+'.html', 'json/'+card_type+'.json', {"Type": "Support Card"})
 
 # main scenario events
-html_to_json('html/scenario.html', 'json/scenario.json', {"Type": "Main Scenario"})
+card_dict_all += html_to_json('html/scenario.html', 'json/scenario.json', {"Type": "Main Scenario"})
+
+# duplication check of IDs
+id_list = list(map(lambda x: x['ID'], card_dict_all))
+print([k for k, v in collections.Counter(id_list).items() if v > 1])
