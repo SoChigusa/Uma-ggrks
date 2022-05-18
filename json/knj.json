@@ -351,7 +351,7 @@
   },
   {
     "Title": "\u60f3\u3044\u306f\u3001\u30b8\u30a7\u30c3\u30c8\u30b3\u30fc\u30b9\u30bf\u30fc\uff01",
-    "ID": "omi",
+    "ID": "omih",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30b9\u30da\u30b7\u30e3\u30eb\u30a6\u30a3\u30fc\u30af",
@@ -1049,7 +1049,7 @@
   },
   {
     "Title": "\u7b4b\u8089\u3068\u5171\u306b\u660e\u65e5\u3078\uff01",
-    "ID": "knn",
+    "ID": "knnkt",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30e1\u30b8\u30ed\u30e9\u30a4\u30a2\u30f3",
@@ -1247,7 +1247,7 @@
   },
   {
     "Title": "\u4fca\u654f\u306b\u3057\u3066\u525b\u8155",
-    "ID": "snb",
+    "ID": "snbn",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30a8\u30a2\u30b0\u30eb\u30fc\u30f4",
@@ -1452,7 +1452,7 @@
   },
   {
     "Title": "\u79c1\u306e\u3001\u904b\u52e2...",
-    "ID": "wts",
+    "ID": "wtsn",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30e1\u30a4\u30b7\u30e7\u30a6\u30c9\u30c8\u30a6",

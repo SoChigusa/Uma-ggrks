@@ -227,7 +227,7 @@
   },
   {
     "Title": "\u6700\u5f37\u306e\u5354\u529b\u8005\uff01\uff1f",
-    "ID": "sik",
+    "ID": "sikunk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
@@ -299,7 +299,7 @@
   },
   {
     "Title": "\u7814\u7a76\u306e\u771f\u610f",
-    "ID": "knk",
+    "ID": "knku",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
@@ -349,7 +349,7 @@
   },
   {
     "Title": "\u9ed2\u3044\u7a7a\u304b\u3089\u306e\u8d08\u308a\u7269",
-    "ID": "kri",
+    "ID": "kris",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
@@ -698,7 +698,7 @@
   },
   {
     "Title": "\u304a\u624b\u4f1d\u3044\u30cf\u30f3\u30d0\u30fc\u30ac\u30fc\uff01",
-    "ID": "ott",
+    "ID": "ottdih",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"

@@ -73,7 +73,7 @@
   },
   {
     "Title": "\u6850\u751f\u9662\u306e\u4f11\u65e5",
-    "ID": "kru",
+    "ID": "krui",
     "Event": {
       "Type": "\u30e1\u30a4\u30f3\u30b7\u30ca\u30ea\u30aa",
       "Scenario": " URA\u30d5\u30a1\u30a4\u30ca\u30eb\u30ba"
@@ -95,7 +95,7 @@
   },
   {
     "Title": "\u30c8\u30ec\u30fc\u30ca\u30fc\u4e26\u307f\u306e\u77e5\u8b58",
-    "ID": "tre",
+    "ID": "tren",
     "Event": {
       "Type": "\u30e1\u30a4\u30f3\u30b7\u30ca\u30ea\u30aa",
       "Scenario": " URA\u30d5\u30a1\u30a4\u30ca\u30eb\u30ba"
@@ -645,7 +645,7 @@
   },
   {
     "Title": "\u30ab\u30ef\u30a4\u30a4\u3092\u5b88\u308a\u305f\u3044\uff01",
-    "ID": "kwi",
+    "ID": "kwii",
     "Event": {
       "Type": "\u30e1\u30a4\u30f3\u30b7\u30ca\u30ea\u30aa",
       "Scenario": " \u30af\u30e9\u30a4\u30de\u30c3\u30af\u30b9"
@@ -668,7 +668,7 @@
   },
   {
     "Title": "\u30c9\u30ad\u30c9\u30ad\u30d5\u30eb\u30fc\u30c4\u30d5\u30a7\u30b9",
-    "ID": "dkd",
+    "ID": "dkdkh",
     "Event": {
       "Type": "\u30e1\u30a4\u30f3\u30b7\u30ca\u30ea\u30aa",
       "Scenario": " \u30af\u30e9\u30a4\u30de\u30c3\u30af\u30b9"
@@ -964,7 +964,7 @@
   },
   {
     "Title": "\u8a9e\u308a\u5408\u3044\u305f\u3044\uff01",
-    "ID": "ktr",
+    "ID": "ktra",
     "Event": {
       "Type": "\u30e1\u30a4\u30f3\u30b7\u30ca\u30ea\u30aa",
       "Scenario": " \u30af\u30e9\u30a4\u30de\u30c3\u30af\u30b9"
@@ -1010,7 +1010,7 @@
   },
   {
     "Title": "\u6016\u304f\u306a\u3044\u3063\u3066\u6016\u3044\u3067\u3059",
-    "ID": "kwk",
+    "ID": "kwknit",
     "Event": {
       "Type": "\u30e1\u30a4\u30f3\u30b7\u30ca\u30ea\u30aa",
       "Scenario": " \u30af\u30e9\u30a4\u30de\u30c3\u30af\u30b9"
