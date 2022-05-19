@@ -68,7 +68,7 @@ def html_to_json(src_html, src_json, type):
 card_dict_all = []
 
 # character events
-for character in ['ain','agnst','agnsd','gor','mzrr','diw','tmm','tie']:
+for character in ['ain','agnst','agnsd','adm','wnn','wk','eag','gor','mzrr','diw','tmm','tie']:
     card_dict_all += html_to_json('html/iks/'+character+'.html', 'json/'+character+'.json', {"Type": "Character"})
 
 # support card events
@@ -80,4 +80,7 @@ card_dict_all += html_to_json('html/scenario.html', 'json/scenario.json', {"Type
 
 # duplication check of IDs
 id_list = list(map(lambda x: x['ID'], card_dict_all))
-print([k for k, v in collections.Counter(id_list).items() if v > 1])
+id_duplicate = [k for k, v in collections.Counter(id_list).items() if v > 1]
+card_dict_duplicate = [d for d in card_dict_all if d['ID'] in id_duplicate]
+for d in card_dict_duplicate:
+    print(d)
