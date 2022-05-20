@@ -27,8 +27,8 @@ function genTable(json, id) {
 		// character [character only]
 		var type = ev.Event.Type;
 		if(type == '育成ウマ娘') {
-			var p = document.createElement('p');
-			for var(chara of ev.Event.Character) {
+			for (var chara of ev.Event.Character) {
+				var p = document.createElement('p');
 				p.textContent = chara;
 				document.getElementById('maintable').appendChild(p);
 			}
