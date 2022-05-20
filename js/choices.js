@@ -120,7 +120,7 @@ function keydown(event) {
 
 // load and save card json database
 let card_type_json, event_json = {};
-var json_name_list = ['spd','stm','pwr','knj','ksk','scenario'].concat( ['ain','agnst','agnsd','adm','wnn','wk','eag','gor','mzrr','diw','tmm','tie']);
+var json_name_list = ['spd','stm','pwr','knj','ksk','scenario'].concat( ['ain','agnst','agnsd','adm','wnn','wk','eag','eis','erk','gor','mzrr','diw','tmm','tie']);
 fetch('https://sochigusa.github.io/Uma-ggrks/json/card_type.json', {cache:'no-store'})
 	.then(response => response.json())
 	.then(json => card_type_json = json);
