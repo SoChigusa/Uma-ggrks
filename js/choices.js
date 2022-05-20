@@ -28,8 +28,10 @@ function genTable(json, id) {
 		var type = ev.Event.Type;
 		if(type == '育成ウマ娘') {
 			var p = document.createElement('p');
-			p.textContent = ev.Event.Character;
-			document.getElementById('maintable').appendChild(p);
+			for var(chara of ev.Event.Character) {
+				p.textContent = chara;
+				document.getElementById('maintable').appendChild(p);
+			}
 		}
 
 		// card type [support card only]

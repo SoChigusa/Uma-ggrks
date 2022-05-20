@@ -21,7 +21,7 @@ def to_dictionary(title, id, charas, choices, results, type):
 
     event = {}
     if(type["Type"] == "Character"):
-        event = dict([("Type", "育成ウマ娘"), ("Character", charas[0])])
+        event = dict([("Type", "育成ウマ娘"), ("Character", charas)])
     elif(type["Type"] == "Support Card"):
         chdat = []
         typedict = [] # deform characters structure

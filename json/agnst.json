@@ -4,7 +4,9 @@
     "ID": "snn",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -26,7 +28,9 @@
     "ID": "det",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -48,7 +52,9 @@
     "ID": "ddk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -84,7 +90,9 @@
     "ID": "rep",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -107,7 +115,9 @@
     "ID": "snnagnst",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -135,7 +145,9 @@
     "ID": "htmagnst",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -163,7 +175,9 @@
     "ID": "ntgagnst",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -185,7 +199,9 @@
     "ID": "dnsagnst",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -207,7 +223,9 @@
     "ID": "mip",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -230,7 +248,9 @@
     "ID": "sikunk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -255,7 +275,9 @@
     "ID": "signa",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -278,7 +300,9 @@
     "ID": "hyk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -302,7 +326,9 @@
     "ID": "knku",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -324,7 +350,9 @@
     "ID": "mzs",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -352,7 +380,9 @@
     "ID": "kris",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -375,7 +405,9 @@
     "ID": "nkt",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -398,7 +430,9 @@
     "ID": "ressagnst",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -461,7 +495,9 @@
     "ID": "resnagnst",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -524,7 +560,9 @@
     "ID": "reshagnst",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -596,7 +634,9 @@
     "ID": "odiagnst",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -633,7 +673,9 @@
     "ID": "mchagnst",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -676,7 +718,9 @@
     "ID": "tikagnst",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {
@@ -701,7 +745,9 @@
     "ID": "ottdih",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      "Character": [
+        "\u30a2\u30b0\u30cd\u30b9\u30bf\u30ad\u30aa\u30f3(\u661f1)"
+      ]
     },
     "Choices": [
       {

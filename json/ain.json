@@ -4,7 +4,9 @@
     "ID": "onecnt",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -26,7 +28,9 @@
     "ID": "mst",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -49,7 +53,9 @@
     "ID": "bitnr",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -71,7 +77,9 @@
     "ID": "snnain",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -99,7 +107,9 @@
     "ID": "htmain",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -127,7 +137,9 @@
     "ID": "ntgain",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -149,7 +161,9 @@
     "ID": "dnsain",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -171,7 +185,9 @@
     "ID": "onecnn",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -193,7 +209,9 @@
     "ID": "dtn",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -216,7 +234,9 @@
     "ID": "bits",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -238,7 +258,9 @@
     "ID": "bitz",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -260,7 +282,9 @@
     "ID": "ressain",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -323,7 +347,9 @@
     "ID": "resnain",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -386,7 +412,9 @@
     "ID": "reshain",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -458,7 +486,9 @@
     "ID": "odiain",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -495,7 +525,9 @@
     "ID": "mchain",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -538,7 +570,9 @@
     "ID": "tikain",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -563,7 +597,9 @@
     "ID": "tir",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -605,7 +641,9 @@
     "ID": "bitnk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -633,7 +671,9 @@
     "ID": "drn",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -655,7 +695,9 @@
     "ID": "tiyk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -688,7 +730,9 @@
     "ID": "yss",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {
@@ -711,7 +755,9 @@
     "ID": "oyb",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      "Character": [
+        "\u30a2\u30a4\u30cd\u30b9\u30d5\u30a6\u30b8\u30f3(\u661f3)"
+      ]
     },
     "Choices": [
       {

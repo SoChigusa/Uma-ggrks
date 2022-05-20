@@ -4,7 +4,9 @@
     "ID": "akg",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -26,7 +28,9 @@
     "ID": "ort",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -48,7 +52,9 @@
     "ID": "kur",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -84,7 +90,9 @@
     "ID": "snnwk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -112,7 +120,9 @@
     "ID": "htmwk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -140,7 +150,9 @@
     "ID": "ntgwk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -162,7 +174,9 @@
     "ID": "dnswk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -184,7 +198,9 @@
     "ID": "tmnh",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -206,7 +222,9 @@
     "ID": "idm",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -228,7 +246,9 @@
     "ID": "ksnz",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -251,7 +271,9 @@
     "ID": "kky",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -273,7 +295,9 @@
     "ID": "hbk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -295,7 +319,9 @@
     "ID": "tmnk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -324,7 +350,9 @@
     "ID": "yrm",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -347,7 +375,9 @@
     "ID": "kuhna",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -369,7 +399,9 @@
     "ID": "resswk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -432,7 +464,9 @@
     "ID": "resnwk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -495,7 +529,9 @@
     "ID": "reshwk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -567,7 +603,9 @@
     "ID": "odiwk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -604,7 +642,9 @@
     "ID": "mchwk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -647,7 +687,9 @@
     "ID": "tikwk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -672,7 +714,9 @@
     "ID": "amk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
@@ -705,7 +749,9 @@
     "ID": "kuk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      "Character": [
+        "\u30a6\u30aa\u30c3\u30ab(\u661f2)"
+      ]
     },
     "Choices": [
       {
