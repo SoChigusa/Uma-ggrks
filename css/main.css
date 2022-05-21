@@ -6,6 +6,10 @@
 }
 
 /* event type strings */
+.source {
+	line-height: 0.8;
+}
+
 .speed {
 	color: #25ACFD;
 }
@@ -36,14 +40,36 @@ table {
 	table-layout: fixed;
   border-collapse: separate;
   border-spacing: 0;
-	border: solid 4px #778ca3;
 	border-radius: 20px;
+}
+
+table.character {
+	border: solid 4px #a3778c;
+}
+
+table.support {
+	border: solid 4px #8ca377;
+}
+
+table.scenario {
+	border: solid 4px #778ca3;
 }
 
 th {
 	padding: 10px 0;
-	background: #778ca3;
 	color: #ffffff;
+}
+
+table.character th {
+	background: #a3778c;
+}
+
+table.support th {
+	background: #8ca377;
+}
+
+table.scenario th {
+	background: #778ca3;
 }
 
 th.choices {
