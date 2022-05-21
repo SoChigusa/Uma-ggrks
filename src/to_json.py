@@ -68,7 +68,7 @@ def html_to_json(src_html, src_json, type):
 card_dict_all = []
 
 # character events
-for character in ['ain','agnst','agnsd','adm','wnn','wk','eag','eis','erk','gor','mzrr','diw','tmm','tie']:
+for character in ['ain','agnst','agnsd','adm','wnn','wk','eag','eis','erk','ogr','krn','kwk','kts','gor','mzrr','diw','tmm','tie']:
     card_dict_all += html_to_json('html/iks/'+character+'.html', 'json/'+character+'.json', {"Type": "Character"})
 
 # support card events

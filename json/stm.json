@@ -187,7 +187,7 @@
   },
   {
     "Title": "\u3044\u3064\u304b\u54b2\u304f\u3001\u305d\u306e\u65e5\u307e\u3067...",
-    "ID": "itk",
+    "ID": "itks",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30b5\u30af\u30e9\u30c1\u30e8\u30ce\u30aa\u30fc",
@@ -1316,7 +1316,7 @@
   },
   {
     "Title": "\u9ad8\u307f\u306b\u81f3\u308b\u70ba",
-    "ID": "tkmn",
+    "ID": "tkmni",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30e1\u30b8\u30ed\u30de\u30c3\u30af\u30a4\u30fc\u30f3",

@@ -1,47 +1,23 @@
 [
   {
-    "Title": "\u4e16\u754c\u6700\u5f37\u306e\u6c7a\u610f\u3092",
-    "ID": "ski",
+    "Title": "\u8a17\u3055\u308c\u305f\u60f3\u3044",
+    "ID": "tks",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u30e9\u30a4\u30d0\u30eb\u305f\u3061\u306b\u6253\u3061\u52dd\u3064\uff01",
+        "Choice": "\u4ffa\u306e\u60f3\u3044\u3082\u4e00\u7dd2\u3060",
         "Results": [
-          "\u30d1\u30ef\u30fc+20"
+          "\u30b9\u30bf\u30df\u30ca+10",
+          "\u30d1\u30ef\u30fc+10"
         ]
       },
       {
-        "Choice": "\u5922\u3078\u306e\u6c7a\u610f\u3068\u304b\uff1f",
-        "Results": [
-          "\u30b9\u30bf\u30df\u30ca+20"
-        ]
-      }
-    ]
-  },
-  {
-    "Title": "\u30b5\u30dc\u30c6\u30f3\u6599\u7406\u3092\u3054\u99b3\u8d70\u30c7\u30fc\u30b9\uff01",
-    "ID": "sbtn",
-    "Event": {
-      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)"
-      ]
-    },
-    "Choices": [
-      {
-        "Choice": "\u30b9\u30c6\u30fc\u30ad\u304b\u306a\uff01",
-        "Results": [
-          "\u30b9\u30d4\u30fc\u30c9+10",
-          "\u30b9\u30bf\u30df\u30ca+10"
-        ]
-      },
-      {
-        "Choice": "\u30b9\u30e0\u30fc\u30b8\u30fc\u304c\u3044\u3044\u306a\uff01",
+        "Choice": "\u307f\u3093\u306a\u3068\u4e00\u7dd2\u306b\u52dd\u3068\u3046",
         "Results": [
           "\u8ce2\u3055+20"
         ]
@@ -49,38 +25,60 @@
     ]
   },
   {
-    "Title": "\u52c7\u6c17\u306e\u5165\u5834\u66f2",
-    "ID": "yuknn",
+    "Title": "\u30aa\u30b0\u30ea\u306f\u68ee\u306e\u6848\u5185\u30a6\u30de\u5a18\uff1f",
+    "ID": "ogrh",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u30e9\u30a4\u30d6\u306e\u66f2\u3092\u53c2\u8003\u306b\u3057\u305f\u3089\uff1f",
+        "Choice": "\u3044\u3064\u3082\u52a9\u3051\u3089\u308c\u3066\u308b\u3088",
+        "Results": [
+          "\u30b9\u30d4\u30fc\u30c9+20"
+        ]
+      },
+      {
+        "Choice": "\u3053\u308c\u304b\u3089\u3082\u983c\u308a\u306b\u3057\u3066\u308b",
+        "Results": [
+          "\u30d1\u30ef\u30fc+20"
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "\u306c\u3044\u3050\u308b\u307f\u3088\u308a\u3082\u305a\u3063\u3068",
+    "ID": "nig",
+    "Event": {
+      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
+      "Character": [
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)"
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "\u672c\u7269\u304c1\u756a\u3060",
         "Results": {
           "\u6210\u529f": [
-            "\u30d1\u30ef\u30fc+20",
-            "\u300c\u5207\u308c\u8005\u300d\u7372\u5f97"
+            "\u6839\u6027+20",
+            "\u300c\u6ce8\u76ee\u682a\u300d\u7372\u5f97"
           ],
           "\u5931\u6557": [
-            "\u30d1\u30ef\u30fc+20"
+            "\u6839\u6027+20"
           ]
         }
       },
       {
-        "Choice": "\u5fdc\u63f4\u56e3\u304c\u4f7f\u3046\u3088\u3046\u306a\u66f2\u3068\u304b\uff1f",
+        "Choice": "\u306c\u3044\u3050\u308b\u307f\u306f\u5fdc\u63f4\u306e\u5f62\u3060",
         "Results": {
           "\u6210\u529f": [
-            "\u30b9\u30d4\u30fc\u30c9+10",
-            "\u30d1\u30ef\u30fc+10",
-            "\u300c\u5207\u308c\u8005\u300d\u7372\u5f97"
+            "\u30b9\u30bf\u30df\u30ca+20",
+            "\u300c\u6ce8\u76ee\u682a\u300d\u7372\u5f97"
           ],
           "\u5931\u6557": [
-            "\u30b9\u30d4\u30fc\u30c9+10",
-            "\u30d1\u30ef\u30fc+10"
+            "\u30b9\u30bf\u30df\u30ca+20"
           ]
         }
       }
@@ -88,29 +86,29 @@
   },
   {
     "Title": "\u65b0\u5e74\u306e\u62b1\u8ca0",
-    "ID": "snnerk",
+    "ID": "snnogr",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u6295\u3052\u6280",
+        "Choice": "\u30b8\u30e0\u3067\u935b\u3048\u3088\u3046\uff01",
         "Results": [
           "\u30d1\u30ef\u30fc+10"
         ]
       },
       {
-        "Choice": "\u5bdd\u6280",
+        "Choice": "\u305f\u304f\u3055\u3093\u98df\u3079\u3066\u5065\u5eb7\u306a1\u5e74\u306b\u3057\u3088\u3046\uff01",
         "Results": [
           "\u4f53\u529b+20"
         ]
       },
       {
-        "Choice": "\u30bf\u30c3\u30b0\u6280",
+        "Choice": "\u5f97\u610f\u306a\u3053\u3068\u3092\u5897\u3084\u305d\u3046",
         "Results": [
           "\u30b9\u30ad\u30ebPt+20"
         ]
@@ -119,54 +117,54 @@
   },
   {
     "Title": "\u521d\u8a63",
-    "ID": "htmerk",
+    "ID": "htmogr",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u30b9\u30da\u30b7\u30e3\u30eb\u30a6\u30a3\u30fc\u30af",
+        "Choice": "\u5065\u5eb7\u7948\u9858\u3067\u300c\u7121\u4e8b\u662f\u540d\u30a6\u30de\u5a18\uff01\u300d",
         "Results": [
-          "\u4f53\u529b+30"
+          "\u4f53\u529b+25"
         ]
       },
       {
-        "Choice": "\u30b5\u30a4\u30ec\u30f3\u30b9\u30b9\u30ba\u30ab",
+        "Choice": "\u6700\u5f37\u3092\u76ee\u6307\u3057\u3066\u300c\u602a\u7269\u306b\u306a\u308b\uff01\u300d",
         "Results": [
-          "\u5168\u30b9\u30c6\u30fc\u30bf\u30b9+5"
+          "\u5168\u80fd\u529b+5"
         ]
       },
       {
-        "Choice": "\u30b0\u30e9\u30b9\u30ef\u30f3\u30c0\u30fc",
+        "Choice": "\u51fa\u6765\u308b\u3053\u3068\u3092\u5897\u3084\u3059\u300c\u6280\u8853\u3092\u7fd2\u5f97\uff01\u300d",
         "Results": [
-          "\u30b9\u30ad\u30ebPt+20"
+          "\u30b9\u30ad\u30ebPt+35"
         ]
       }
     ]
   },
   {
     "Title": "\u590f\u5408\u5bbf\uff082\u5e74\u76ee\uff09\u306b\u3066",
-    "ID": "ntgerk",
+    "ID": "ntgogr",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u7a81\u8cab\u529b",
+        "Choice": "\u3055\u3089\u306b\u30d1\u30ef\u30fc\u3092\u3064\u3051\u3088\u3046",
         "Results": [
           "\u30d1\u30ef\u30fc+10"
         ]
       },
       {
-        "Choice": "\u5be1\u9ed9\u3055",
+        "Choice": "\u6c17\u6301\u3061\u3067\u8ca0\u3051\u306a\u3044\u3088\u3046\u306b\u3057\u3088\u3046",
         "Results": [
           "\u6839\u6027+10"
         ]
@@ -175,48 +173,73 @@
   },
   {
     "Title": "\u30c0\u30f3\u30b9\u30ec\u30c3\u30b9\u30f3",
-    "ID": "dnserk",
+    "ID": "dnsogr",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u5468\u308a\u306e\u6c17\u306b\u306a\u308b\u3068\u3053\u308d\u3067\u8e0a\u308d\u3046",
+        "Choice": "\u529b\u5f37\u3044\u30b9\u30c6\u30c3\u30d7\u304c\u3088\u304b\u3063\u305f",
         "Results": [
-          "\u30b9\u30bf\u30df\u30ca+10"
+          "\u30d1\u30ef\u30fc+10"
         ]
       },
       {
-        "Choice": "\u93e1\u3092\u898b\u306a\u304c\u3089\u8e0a\u308d\u3046",
-        "Results": [
-          "\u8ce2\u3055+10"
-        ]
-      }
-    ]
-  },
-  {
-    "Title": "\u30aa\u30ea\u30b8\u30ca\u30eb\u30fb\u30de\u30b9\u30af",
-    "ID": "orz",
-    "Event": {
-      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
-      ]
-    },
-    "Choices": [
-      {
-        "Choice": "\u52a0\u901f\u529b\u306e\u3042\u308b\u30c1\u30fc\u30bf\u30fc\u3068\u304b\uff1f",
+        "Choice": "\u6d41\u308c\u308b\u3088\u3046\u306a\u52d5\u304d\u304c\u3088\u304b\u3063\u305f",
         "Results": [
           "\u30b9\u30d4\u30fc\u30c9+10"
         ]
+      }
+    ]
+  },
+  {
+    "Title": "\u8ff7\u3044\u30a6\u30de\u5a18",
+    "ID": "myi",
+    "Event": {
+      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
+      "Character": [
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "\u304f\u307e\u306a\u304f\u63a2\u305d\u3046",
+        "Results": [
+          "\u6839\u6027+10"
+        ]
       },
       {
-        "Choice": "\u529b\u5f37\u3044\u30be\u30a6\u3068\u304b\uff1f",
+        "Choice": "\u7269\u7523\u5c55\u306b\u884c\u3063\u3066\u307f\u3088\u3046",
+        "Results": [
+          "\u30b9\u30d4\u30fc\u30c9+10"
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "\u7551\u3067\u30d3\u30eb\u30c9\u30a2\u30c3\u30d7",
+    "ID": "htk",
+    "Event": {
+      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
+      "Character": [
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "\u96d1\u8349\u3092\u629c\u3044\u3066\u3057\u307e\u304a\u3046",
+        "Results": [
+          "\u6839\u6027+10"
+        ]
+      },
+      {
+        "Choice": "\u7551\u3092\u8015\u305d\u3046",
         "Results": [
           "\u30d1\u30ef\u30fc+10"
         ]
@@ -224,100 +247,77 @@
     ]
   },
   {
-    "Title": "\u30b5\u30eb\u30b5\u30fb\u30ed\u30cf",
-    "ID": "srs",
+    "Title": "\u30ec\u30fc\u30b9\u3068\u30b0\u30eb\u30e1\u3067\u6e80\u8179\u306b",
+    "ID": "rest",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u3044\u3044\u6c57\u3092\u304b\u3051\u305d\u3046\u3060",
+        "Choice": "\u65e9\u3081\u306b\u884c\u3063\u3066\u89b3\u6226\u5834\u6240\u3092\u78ba\u4fdd\u3057\u3088\u3046",
         "Results": [
-          "\u30b9\u30bf\u30df\u30ca+10"
-        ]
-      },
-      {
-        "Choice": "\u30d1\u30ef\u30d5\u30eb\u306a\u97ff\u304d\u3060",
-        "Results": [
-          "\u30d1\u30ef\u30fc+10"
-        ]
-      }
-    ]
-  },
-  {
-    "Title": "\u7279\u5927\u30d4\u30b6\u3092\u72d9\u3048\uff01",
-    "ID": "tkd",
-    "Event": {
-      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
-      ]
-    },
-    "Choices": [
-      {
-        "Choice": "\u5727\u3092\u304b\u3051\u3066\u3044\u3053\u3046...\uff01",
-        "Results": [
-          "\u30d1\u30ef\u30fc+10",
+          "\u4f53\u529b+10",
           "\u30b9\u30ad\u30ebPt+15"
         ]
       },
       {
-        "Choice": "\u4eba\u306e\u9699\u9593\u3092\u898b\u9003\u3059\u306a\uff01",
+        "Choice": "\u30ec\u30fc\u30b9\u3082\u30b0\u30eb\u30e1\u3082\u697d\u3057\u3082\u3046\uff01",
         "Results": [
-          "\u300c\u8efd\u3084\u304b\u30b9\u30c6\u30c3\u30d7\u300d\u306e\u30d2\u30f3\u30c8Lv+1"
+          "\u300c\u4e2d\u5c71\u30ec\u30fc\u30b9\u5834\u25ef\u300d\u306e\u30d2\u30f3\u30c8Lv+1"
         ]
       }
     ]
   },
   {
-    "Title": "\u61a7\u308c\u306e\u30ec\u30b9\u30e9\u30fc",
-    "ID": "akgrnr",
+    "Title": "\u30aa\u30b0\u30ea\u3001\u6c7a\u610f\u3059\u308b",
+    "ID": "ogrk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u6804\u990a\u3067\u3082\u3064\u3051\u306b\u884c\u3053\u3046\uff01",
+        "Choice": "\u3088\u3057\u3001\u4e00\u7dd2\u306b\u8003\u3048\u3088\u3046\uff01",
         "Results": [
-          "\u30b9\u30bf\u30df\u30ca+10"
+          "\u30b9\u30d4\u30fc\u30c9+5",
+          "\u8ce2\u3055+5"
         ]
       },
       {
-        "Choice": "\u30c0\u30c3\u30b7\u30e5\u3057\u3066\u5e30\u308d\u3046\uff01",
+        "Choice": "\u3068\u304d\u306b\u306f\u8352\u7642\u6cbb\u3082\u5fc5\u8981\u3060\uff01",
         "Results": [
-          "\u30b9\u30d4\u30fc\u30c9+10"
+          "\u30b9\u30bf\u30df\u30ca+5",
+          "\u6839\u6027+5"
         ]
       }
     ]
   },
   {
-    "Title": "\u885d\u6483\u306e\u5f15\u9000",
-    "ID": "sug",
+    "Title": "\u30aa\u30b0\u30ea\u3001\u9811\u5f35\u308b",
+    "ID": "ogrg",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u63a2\u3057\u3066\u307f\u3088\u3046\uff01",
+        "Choice": "\u304a\u5ba2\u3055\u3093\u3092\u6545\u90f7\u306e\u307f\u3093\u306a\u3060\u3068\u601d\u3046\u3093\u3060\uff01",
         "Results": [
           "\u6839\u6027+10"
         ]
       },
       {
-        "Choice": "\u8ffd\u3044\u3064\u3051\u308b\u304b\u3082\u3057\u308c\u306a\u3044\uff01",
+        "Choice": "\u304a\u5ba2\u3055\u3093\u3092\u306b\u3093\u3058\u3093\u3060\u3068\u601d\u3046\u3093\u3060\uff01",
         "Results": [
           "\u30d1\u30ef\u30fc+10"
         ]
@@ -325,102 +325,101 @@
     ]
   },
   {
-    "Title": "\u3082\u30461\u5ea6\u3001\u6c7a\u610f\u3092",
-    "ID": "mu1",
+    "Title": "\u30aa\u30b0\u30ea\u3001\u6210\u9577\u3059\u308b",
+    "ID": "ogrs",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u81ea\u5206\u3092\u91cd\u306d\u3066\u305f\u3068\u304b\uff1f",
+        "Choice": "\u7df4\u7fd2\u306e\u6210\u679c\u304c\u51fa\u305f\u306a",
         "Results": [
-          "\u6839\u6027+10"
+          "\u8ce2\u3055+10"
         ]
       },
       {
-        "Choice": "\u9a5a\u304d\u304c\u5148\u306b\u304d\u305f\u3093\u3060\u3088",
+        "Choice": "\u307e\u305f1\u3064\u6210\u9577\u3057\u305f\u306a",
         "Results": [
           "\u30b9\u30bf\u30df\u30ca+10"
         ]
       },
       {
-        "Choice": "\u30d5\u30a1\u30f3\u306e\u771f\u7406\u304b\u306a",
+        "Choice": "\u540c\u5e74\u4ee3\u306b\u56f2\u307e\u308c\u308b\u306e\u3082\u6163\u308c\u3066\u304d\u305f\u304b\uff1f",
+        "Results": [
+          "\u30d1\u30ef\u30fc+10"
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "\u6c17\u306b\u306a\u308b\u96a3\u306e\u6669\u3054\u98ef\uff01",
+    "ID": "knn",
+    "Event": {
+      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
+      "Character": [
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "\u6025\u3044\u3067\u5e30\u3063\u3066\u3054\u98ef\u3092\u98df\u3079\u3088\u3046",
+        "Results": [
+          "\u30b9\u30d4\u30fc\u30c9+10"
+        ]
+      },
+      {
+        "Choice": "\u4f55\u304b\u98df\u3079\u3066\u5e30\u308b\u304b\uff1f",
+        "Results": [
+          "\u6839\u6027+10"
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "\u9ad8\u307f\u306e\u30e9\u30a4\u30d0\u30eb",
+    "ID": "tkmnr",
+    "Event": {
+      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
+      "Character": [
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "\u8d70\u308a\u65b9\u304c\u4f3c\u3066\u308b\u306a",
         "Results": [
           "\u30b9\u30d4\u30fc\u30c9+5",
           "\u30b9\u30bf\u30df\u30ca+5"
         ]
-      }
-    ]
-  },
-  {
-    "Title": "\u591c\u306e\u5b66\u5712\u306e\u3054\u8001\u516c\uff1f",
-    "ID": "yrn",
-    "Event": {
-      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
-      ]
-    },
-    "Choices": [
-      {
-        "Choice": "\u3088\u3063\u4e16\u754c\u6700\u5f37\u6700\u901f\uff01",
-        "Results": [
-          "\u3084\u308b\u6c17+1",
-          "\u6839\u6027+5"
-        ]
       },
       {
-        "Choice": "\u5f8c\u308d\u306b\u65a7\u3092\u6301\u3063\u305f\u4eba\u5f71\u304c\uff01",
+        "Choice": "\u540c\u7740\u3060\u306a",
         "Results": [
-          "\u4f53\u529b+10"
-        ]
-      }
-    ]
-  },
-  {
-    "Title": "\u8d08\u308b\u82b1\u8a00\u8449",
-    "ID": "okr",
-    "Event": {
-      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
-      ]
-    },
-    "Choices": [
-      {
-        "Choice": "\u30ab\u30e2\u30df\u30fc\u30eb\u306f\u3069\u3046\u3060\uff1f",
-        "Results": [
-          "\u3084\u308b\u6c17+1",
+          "\u30d1\u30ef\u30fc+5",
           "\u8ce2\u3055+5"
-        ]
-      },
-      {
-        "Choice": "\u30ab\u30b9\u30df\u30bd\u30a6\u306f\u3069\u3046\u3060\uff1f",
-        "Results": [
-          "\u4f53\u529b+10"
         ]
       }
     ]
   },
   {
     "Title": "\u30ec\u30fc\u30b9\u52dd\u5229\uff01",
-    "ID": "resserk",
+    "ID": "ressogr",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u6b21\u306e\u52dd\u8ca0\u3082\u9811\u5f35\u308b\u305e\uff01",
+        "Choice": "\u4eca\u65e5\u306f\u3054\u99b3\u8d70\u3060\u306a\uff01",
         "Results": [
           "\u3010G1\u3011",
           "\u4f53\u529b\u221215",
@@ -438,7 +437,7 @@
         ]
       },
       {
-        "Choice": "\u6cb9\u65ad\u306f\u7981\u7269\u3060\uff01",
+        "Choice": "\u6b21\u3082\u5168\u529b\u3067\u9811\u5f35\u308d\u3046",
         "Results": {
           "\u6210\u529f": [
             "\u3010G1\u3011",
@@ -476,17 +475,17 @@
   },
   {
     "Title": "\u30ec\u30fc\u30b9\u5165\u7740",
-    "ID": "resnerk",
+    "ID": "resnogr",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u76f8\u5f53\u3044\u3044\u8d70\u308a\u3060\u3063\u305f",
+        "Choice": "\u7126\u308b\u5fc5\u8981\u306f\u306a\u3044\u3055",
         "Results": [
           "\u3010G1\u3011",
           "\u4f53\u529b\u221220",
@@ -504,7 +503,7 @@
         ]
       },
       {
-        "Choice": "53\u70b9",
+        "Choice": "\u5354\u529b\u306f\u60dc\u3057\u307e\u306a\u3044\u305e",
         "Results": {
           "\u6210\u529f": [
             "\u3010G1\u3011",
@@ -542,17 +541,17 @@
   },
   {
     "Title": "\u30ec\u30fc\u30b9\u6557\u5317",
-    "ID": "resherk",
+    "ID": "reshogr",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u6b21\u306f\u5727\u52dd\u3057\u3088\u3046",
+        "Choice": "\u6b21\u306f\u671f\u5f85\u3057\u3066\u3044\u308b\u305e\uff01",
         "Results": [
           "\u3010G1\u3011",
           "\u4f53\u529b\u221225",
@@ -573,7 +572,7 @@
         ]
       },
       {
-        "Choice": "\u3044\u3064\u3082\u306e\u8abf\u5b50\u306f\u3069\u3046\u3057\u305f\uff1f",
+        "Choice": "\u65e9\u901f\u30c8\u30ec\u30fc\u30cb\u30f3\u30b0\u3060\uff01",
         "Results": {
           "\u6210\u529f": [
             "\u3010G1\u3011",
@@ -617,17 +616,17 @@
   },
   {
     "Title": "\u304a\u5927\u4e8b\u306b\uff01",
-    "ID": "odierk",
+    "ID": "odiogr",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u4f11\u990a\u304c1\u756a\u306e\u85ac",
+        "Choice": "\u3067\u3082\u3061\u3083\u3093\u3068\u4f11\u3082\u3046",
         "Results": {
           "\u6210\u529f": [
             "\u3084\u308b\u6c17\u22121",
@@ -641,7 +640,7 @@
         }
       },
       {
-        "Choice": "\u6839\u6027\u3067\u65e9\u304f\u6cbb\u305d\u3046\uff01",
+        "Choice": "\u672c\u5f53\u306b\uff1f",
         "Results": {
           "\u6210\u529f": [
             "\u300c\u7df4\u7fd2\u4e0a\u624b\u25ef\u300d\u7372\u5f97"
@@ -657,17 +656,17 @@
   },
   {
     "Title": "\u7121\u8336\u306f\u53b3\u7981\uff01",
-    "ID": "mcherk",
+    "ID": "mchogr",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u3044\u3044\u3084\u3001\u4ffa\u306e\u30df\u30b9\u3060",
+        "Choice": "\u307e\u305a\u306f\u7126\u3089\u305a\u3086\u3063\u304f\u308a\u4f11\u3082\u3046",
         "Results": {
           "\u6210\u529f": [
             "\u4f53\u529b+10",
@@ -685,7 +684,7 @@
         }
       },
       {
-        "Choice": "\u78ba\u304b\u306b\u3001\u6c17\u5408\u3044\u304c\u8db3\u308a\u306a\u304b\u3063\u305f",
+        "Choice": "\u306a\u3089\u3001\u3059\u3050\u306b\u6cbb\u3057\u3066\u307e\u305f\u8d70\u308d\u3046\uff01",
         "Results": {
           "\u6210\u529f": [
             "\u4f53\u529b+10",
@@ -703,17 +702,17 @@
   },
   {
     "Title": "\u8ffd\u52a0\u306e\u81ea\u4e3b\u30c8\u30ec",
-    "ID": "tikerk",
+    "ID": "tikogr",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u305d\u306e\u60c5\u71b1\u306b\u4ed8\u304d\u5408\u3046\u3088\uff01",
+        "Choice": "\u305d\u306e\u899a\u609f\u3001\u53d7\u3051\u53d6\u3063\u305f",
         "Results": [
           "\u4f53\u529b\u22125",
           "\u76f4\u524d\u306e\u30c8\u30ec\u30fc\u30cb\u30f3\u30b0\u306b\u5fdc\u3058\u305f\u30b9\u30c6\u30fc\u30bf\u30b9+5",
@@ -722,7 +721,7 @@
         ]
       },
       {
-        "Choice": "\u306a\u3089\u4f11\u3080\u3079\u304d\u3060\u3088",
+        "Choice": "\u4ed6\u4eba\u306e\u30da\u30fc\u30b9\u306b\u4e71\u3055\u308c\u308b\u306a",
         "Results": [
           "\u4f53\u529b+5"
         ]
@@ -730,25 +729,25 @@
     ]
   },
   {
-    "Title": "\u30db\u30c3\u30c8\uff06\u30d5\u30e9\u30a4\uff01",
-    "ID": "hth",
+    "Title": "\u98df\u3044\u3057\u3093\u574a\u306f\u4f0a\u9054\u3058\u3083\u306a\u3044",
+    "ID": "kis",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f2)",
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u4e00\u6c17\u306b\u4f7f\u3044\u5207\u308b\u306e\u306f\u3082\u3063\u305f\u3044\u306a\u3044",
+        "Choice": "\u98df\u4e8b\u306f\u9069\u91cf\u304c1\u756a",
         "Results": [
           "\u4f53\u529b+10",
           "\u30b9\u30ad\u30ebPt+5"
         ]
       },
       {
-        "Choice": "\u3044\u3063\u3071\u3044\u98df\u3079\u3066\u3001\u5f37\u304f\u306a\u308d\u3046",
+        "Choice": "\u8179\u304c\u6e1b\u3063\u3066\u306f\u529b\u304c\u51fa\u306a\u3044\uff01",
         "Results": {
           "\u6210\u529f": [
             "\u4f53\u529b+30",
@@ -766,91 +765,130 @@
     ]
   },
   {
-    "Title": "\u8863\u88c5\u306b\u5bbf\u308b\u71b1\u304d\u708e\uff01",
-    "ID": "isu",
+    "Title": "\u30aa\u30b0\u30ea\u306e\u5927\u98df\u3044\u9078\u624b\u6a29",
+    "ID": "ogrn",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
+        "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7(\u661f3)",
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
       ]
     },
     "Choices": [
       {
-        "Choice": "\u7740\u7269\u3067\u51b7\u9759\u3055\u3092\u8eab\u306b\u7e8f\u304a\u3046",
-        "Results": [
-          "\u300c\u30a6\u30de\u8fbc\u307f\u51b7\u9759\u300d\u306e\u30d2\u30f3\u30c8Lv+2"
-        ]
-      },
-      {
-        "Choice": "\u9053\u7740\u3092\u7740\u3066\u4fee\u884c\uff01",
-        "Results": [
-          "\u30b9\u30d4\u30fc\u30c9+7",
-          "\u30d1\u30ef\u30fc+7",
-          "\u6839\u6027+7"
-        ]
-      }
-    ]
-  },
-  {
-    "Title": "\u71b1\uff01\u4f1d\uff01\u5c0e\uff01",
-    "ID": "ntd",
-    "Event": {
-      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": [
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
-      ]
-    },
-    "Choices": [
-      {
-        "Choice": "\u8a9e\u308b\u3088\u308a\u884c\u52d5\u3067\u793a\u305d\u3046\uff01",
-        "Results": [
-          "\u30d1\u30ef\u30fc+20"
-        ]
-      },
-      {
-        "Choice": "\u8863\u88c5\u306e\u3088\u3046\u306b\u71b1\u3044\u3082\u306e\u3092\u6301\u3063\u3066\u3044\u308b",
-        "Results": [
-          "\u3084\u308b\u6c17+1",
-          "\u8ce2\u3055+10"
-        ]
-      }
-    ]
-  },
-  {
-    "Title": "\u904e\u53bb\u304b\u3089\u306e\u6311\u6226\u72b6\uff01",
-    "ID": "kkk",
-    "Event": {
-      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
-      "Character": [
-        "\u65b0\u8863\u88c5\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc(\u661f3)"
-      ]
-    },
-    "Choices": [
-      {
-        "Choice": "\u307f\u3093\u306a\u306e\u305f\u3081\u306b\u3082\u7528\u610f\u3057\u76f4\u305d\u3046\uff01",
+        "Choice": "\u601d\u3044\u3063\u304d\u308a\u6226\u3063\u3066\u3053\u3044\uff01",
         "Results": {
           "\u6210\u529f": [
-            "\u30b9\u30d4\u30fc\u30c9+10",
+            "\u4f53\u529b+30",
             "\u30d1\u30ef\u30fc+10",
-            "\u300c\u611b\u5b0c\u25ef\u300d\u7372\u5f97"
+            "\u30b9\u30ad\u30ebPt+10"
           ],
           "\u5931\u6557": [
-            "\u30b9\u30d4\u30fc\u30c9+10",
-            "\u30d1\u30ef\u30fc+10"
+            "\u4f53\u529b+30",
+            "\u30b9\u30d4\u30fc\u30c9\u22125",
+            "\u30d1\u30ef\u30fc+5",
+            "\u30b9\u30ad\u30ebPt+10",
+            "\u300c\u592a\u308a\u6c17\u5473\u300d\u7372\u5f97"
           ]
         }
       },
       {
-        "Choice": "\u7802\u7cd6\u3092\u5165\u308c\u3066\u7518\u304f\u3057\u3088\u3046\u304b\u2026\u2026",
-        "Results": {
-          "\u6210\u529f": [
-            "\u300c\u81e8\u6a5f\u5fdc\u5909\u300d\u306e\u30d2\u30f3\u30c8Lv+2",
-            "\u300c\u611b\u5b0c\u25ef\u300d\u7372\u5f97"
-          ],
-          "\u5931\u6557": [
-            "\u300c\u81e8\u6a5f\u5fdc\u5909\u300d\u306e\u30d2\u30f3\u30c8Lv+2"
-          ]
-        }
+        "Choice": "\u307b\u3069\u307b\u3069\u306b\u30bb\u30fc\u30d6\u3057\u3066\u307b\u3057\u3044",
+        "Results": [
+          "\u4f53\u529b+10",
+          "\u30d1\u30ef\u30fc+5",
+          "\u30b9\u30ad\u30ebPt+5"
+        ]
+      },
+      {
+        "Choice": "\u98df\u3063\u3066\u98df\u3063\u3066......\u5168\u3066\u3092\u98df\u3044\u5c3d\u304f\u305b\uff01",
+        "Results": [
+          "\u4f53\u529b\u304c\u5168\u56de\u5fa9",
+          "\u30b9\u30d4\u30fc\u30c9\u221220",
+          "\u30d1\u30ef\u30fc+20",
+          "\u30b9\u30ad\u30ebPt+20",
+          "\u300c\u592a\u308a\u6c17\u5473\u300d\u7372\u5f97"
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "\u8056\u591c\u306b\u4e26\u3093\u3067\u8d70\u308b\u305f\u3081",
+    "ID": "siy",
+    "Event": {
+      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
+      "Character": [
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "\u3069\u3053\u3067\u7af6\u3046\u3093\u3060\uff1f",
+        "Results": [
+          "\u30b9\u30ad\u30ebPt+30"
+        ]
+      },
+      {
+        "Choice": "\u7126\u3063\u3066\u3084\u308b\u5fc5\u8981\u306f\u306a\u3044",
+        "Results": [
+          "\u30b9\u30d4\u30fc\u30c9+10",
+          "\u30d1\u30ef\u30fc+5"
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "\u307f\u3093\u306a\u306e\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7",
+    "ID": "mnnn",
+    "Event": {
+      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
+      "Character": [
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "\u5f7c\u5973\u306e\u5922\u3092\u53f6\u3048\u3066\u307f\u305b\u307e\u3059\uff01",
+        "Results": [
+          "\u300c\u6804\u990a\u88dc\u7d66\u300d\u306e\u30d2\u30f3\u30c8Lv+2",
+          "\u300c\u611b\u5b0c\u25ef\u300d\u7372\u5f97"
+        ]
+      },
+      {
+        "Choice": "\u4e0d\u675f\u8005\u3067\u3059\u304c\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059",
+        "Results": [
+          "\u30d1\u30ef\u30fc+10",
+          "\u6839\u6027+5",
+          "\u300c\u611b\u5b0c\u25ef\u300d\u7372\u5f97"
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "\u5148\u53d6\u308a\u5927\u4eba\u306e\u30af\u30ea\u30b9\u30de\u30b9\uff01\uff1f",
+    "ID": "skd",
+    "Event": {
+      "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
+      "Character": [
+        "\u30af\u30ea\u30b9\u30de\u30b9\u30aa\u30b0\u30ea(\u661f3)"
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "\u4eca\u307e\u3067\u3067\u6700\u9ad8\u306e\u30d7\u30ec\u30bc\u30f3\u30c8\u3060\u3088",
+        "Results": [
+          "\u4f53\u529b+12",
+          "\u3084\u308b\u6c17+1",
+          "\u300c\u51ac\u30a6\u30de\u5a18\u25ef\u300d\u306e\u30d2\u30f3\u30c8Lv+2"
+        ]
+      },
+      {
+        "Choice": "\u2026\u2026\u3058\u3083\u3042\u3001\u4eca\u5e74\u306f\u30b5\u30f3\u30bf\u3055\u3093\u6765\u306a\u3044\u304b\u3082\uff1f",
+        "Results": [
+          "\u30b9\u30d4\u30fc\u30c9+10",
+          "\u8ce2\u3055+20",
+          "\u300c\u51ac\u30a6\u30de\u5a18\u25ef\u300d\u306e\u30d2\u30f3\u30c8Lv+2"
+        ]
       }
     ]
   }
