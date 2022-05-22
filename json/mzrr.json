@@ -348,7 +348,7 @@
   },
   {
     "Title": "\u983c\u308c\u308b\u52a9\u3063\u4eba\u3001\u767b\u5834\uff01",
-    "ID": "tyr",
+    "ID": "tyrrs",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
@@ -372,7 +372,7 @@
   },
   {
     "Title": "\u30a6\u30de\u30c9\u30eb\u306e\u5c0f\u3055\u306a\u30d5\u30a1\u30f3\u305f\u3061",
-    "ID": "umd",
+    "ID": "umdrn",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [

@@ -351,7 +351,7 @@
   },
   {
     "Title": "\u60f3\u3044\u306f\u3001\u30b8\u30a7\u30c3\u30c8\u30b3\u30fc\u30b9\u30bf\u30fc\uff01",
-    "ID": "omih",
+    "ID": "omihj",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30b9\u30da\u30b7\u30e3\u30eb\u30a6\u30a3\u30fc\u30af",
@@ -790,7 +790,7 @@
   },
   {
     "Title": "\u6c42\u3080\u3001\u500b\u6027\uff01",
-    "ID": "mtm",
+    "ID": "mtmk",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30de\u30c1\u30ab\u30cd\u30bf\u30f3\u30db\u30a4\u30b6",

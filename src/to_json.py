@@ -76,7 +76,7 @@ def duplication_check(card_dict):
 card_dict_all = []
 
 # character events
-for character in ['ain','agnst','agnsd','adm','wnn','wk','eag','eis','erk','ogr','krn','kwk','kts','kng','grs','gorst','gorsp','mzrr','diw','tmm','tie']:
+for character in ['ain','agnst','agnsd','adm','wnn','wk','eag','eis','erk','ogr','krn','kwk','kts','kng','grs','gorst','gorsp','sir','skrt','skrb','stn','mzrr','diw','tmm','tie']:
     card_dict_all += html_to_json('html/iks/'+character+'.html', 'json/'+character+'.json', {"Type": "Character"})
 
 # support card events
