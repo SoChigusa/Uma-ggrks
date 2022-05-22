@@ -251,7 +251,7 @@
   },
   {
     "Title": "\u5b64\u9ad8\u306e\u30b1\u30d5\u30a7\u30a6\u30b9",
-    "ID": "kku",
+    "ID": "kkunk",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30a2\u30c9\u30de\u30a4\u30e4\u30d9\u30ac",
@@ -586,7 +586,7 @@
   },
   {
     "Title": "\u4eba\u6df7\u307f\u306f\u5927\u5909\u3060......",
-    "ID": "htg",
+    "ID": "htgmh",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7",

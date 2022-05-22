@@ -256,7 +256,7 @@
   },
   {
     "Title": "\u3072\u3068\u3068\u304d\u3001\u3046\u3089\u3046\u3089\u306b",
-    "ID": "htt",
+    "ID": "httk",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30b0\u30e9\u30b9\u30ef\u30f3\u30c0\u30fc",
@@ -1452,7 +1452,7 @@
   },
   {
     "Title": "\u79c1\u306e\u3001\u904b\u52e2...",
-    "ID": "wtsn",
+    "ID": "wtsnu",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30e1\u30a4\u30b7\u30e7\u30a6\u30c9\u30c8\u30a6",
