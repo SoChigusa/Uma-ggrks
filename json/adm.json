@@ -1,7 +1,7 @@
 [
   {
     "Title": "\u60f3\u3044\u3088\u5c4a\u3051",
-    "ID": "omi",
+    "ID": "omiy",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
@@ -294,7 +294,7 @@
   },
   {
     "Title": "\u8a00\u8449\uff0b\u2026\u2026",
-    "ID": "ktb",
+    "ID": "ktbadm",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
@@ -396,7 +396,7 @@
   },
   {
     "Title": "\u30a2\u30e4\u30d9\u3055\u3093\u306e\u30b5\u30f3\u30c9\u30a6\u30a3\u30c3\u30c1",
-    "ID": "ayb",
+    "ID": "aybsnn",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [

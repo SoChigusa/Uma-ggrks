@@ -64,6 +64,14 @@ def html_to_json(src_html, src_json, type):
 
     return card_dict
 
+# check ID duplication with prefix match
+def duplication_check(card_dict):
+    for card in card_dict:
+        for card2 in card_dict:
+            if (card != card2 and card2['ID'].startswith(card['ID'])):
+                print(card)
+                print(card2)
+
 # preserve whole dictionary for duplication check
 card_dict_all = []
 
@@ -79,8 +87,4 @@ for card_type in ['spd', 'stm', 'pwr', 'knj', 'ksk']:
 card_dict_all += html_to_json('html/scenario.html', 'json/scenario.json', {"Type": "Main Scenario"})
 
 # duplication check of IDs
-id_list = list(map(lambda x: x['ID'], card_dict_all))
-id_duplicate = [k for k, v in collections.Counter(id_list).items() if v > 1]
-card_dict_duplicate = [d for d in card_dict_all if d['ID'] in id_duplicate]
-for d in card_dict_duplicate:
-    print(d)
+duplication_check(card_dict_all)

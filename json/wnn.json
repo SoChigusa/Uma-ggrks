@@ -196,7 +196,7 @@
   },
   {
     "Title": "\u96e8\u30cb\u30e2\u8ca0\u30b1\u30ba",
-    "ID": "amn",
+    "ID": "amnm",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
@@ -299,7 +299,7 @@
   },
   {
     "Title": "\u3044\u304d\u306a\u308a\u30d5\u30c3\u30c8\u30b5\u30eb\uff01\uff1f",
-    "ID": "ikn",
+    "ID": "iknr",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [

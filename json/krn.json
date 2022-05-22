@@ -27,7 +27,7 @@
   },
   {
     "Title": "\u30ab\u30ec\u30f3\u7684SNS\u3068\u306e\u4ed8\u304d\u5408\u3044\u65b9\u266a",
-    "ID": "krn",
+    "ID": "krnt",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
@@ -340,7 +340,7 @@
   },
   {
     "Title": "\u601d\u3044\u51fa\u306e\u5473",
-    "ID": "omid",
+    "ID": "omidn",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
