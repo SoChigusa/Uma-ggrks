@@ -488,7 +488,7 @@
   },
   {
     "Title": "\u30b7\u30fc\u30af\u30ec\u30c3\u30c8\u30fb\u30ce\u30fc\u30c8\uff01",
-    "ID": "skrt",
+    "ID": "skrtn",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30a8\u30eb\u30b3\u30f3\u30c9\u30eb\u30d1\u30b5\u30fc",
@@ -1585,7 +1585,7 @@
   },
   {
     "Title": "\u66c7\u308a\u306e\u65e5\u306e1\u30da\u30fc\u30b8",
-    "ID": "kmr",
+    "ID": "kmrnh",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30e9\u30a4\u30b9\u30b7\u30e3\u30ef\u30fc",

@@ -1007,7 +1007,7 @@
   },
   {
     "Title": "\u5c11\u3057\u3067\u3082\u8fd1\u3065\u3051\u308b\u3088\u3046\u306b",
-    "ID": "sks",
+    "ID": "sksd",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30b9\u30da\u30b7\u30e3\u30eb\u30a6\u30a3\u30fc\u30af",
@@ -1960,7 +1960,7 @@
   },
   {
     "Title": "\u4fe1\u4ef0\u5fc3\u3068\u89aa\u5207\u5fc3\u304c\u4ea4\u308f\u308b\u6642\u2015",
-    "ID": "snk",
+    "ID": "snku",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30de\u30c1\u30ab\u30cd\u30d5\u30af\u30ad\u30bf\u30eb",

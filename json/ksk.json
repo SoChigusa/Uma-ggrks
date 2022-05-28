@@ -560,7 +560,7 @@
   },
   {
     "Title": "\u8131\u30fb\u7121\u96e3\u8ad6",
-    "ID": "dtb",
+    "ID": "dtbn",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30d3\u30ef\u30cf\u30e4\u30d2\u30c7",
@@ -1558,7 +1558,8 @@
         "Results": {
           "\u6210\u529f": [
             "\u4f53\u529b+10",
-            "\u3084\u308b\u6c17+1,\u300c\u53f3\u56de\u308a\u300d\u306e\u30d2\u30f3\u30c8Lv+3",
+            "\u3084\u308b\u6c17+1",
+            "\u300c\u53f3\u56de\u308a\u25cb\u300d\u306e\u30d2\u30f3\u30c8Lv+3",
             "\u30de\u30c1\u30ab\u30cd\u30d5\u30af\u30ad\u30bf\u30eb\u306e\u7d46\u30b2\u30fc\u30b8+5"
           ],
           "\u5931\u6557": [

@@ -323,7 +323,7 @@
   },
   {
     "Title": "\u7814\u7a76\u306e\u771f\u610f",
-    "ID": "knkun",
+    "ID": "knkunsni",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
@@ -402,7 +402,7 @@
   },
   {
     "Title": "\u8089\u4f53\u6539\u9020\u601d\u3044\u306e\u307e\u307e\uff01",
-    "ID": "nkt",
+    "ID": "nkti",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
