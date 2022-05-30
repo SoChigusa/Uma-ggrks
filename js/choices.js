@@ -139,7 +139,7 @@ function keydown(event) {
 
 // load and save card json database
 let card_type_json, event_json = {};
-var json_name_list = ['spd','stm','pwr','knj','ksk','scenario'].concat( ['ain','agnst','agnsd','adm','wnn','wk','eag','eis','erk','ogr','krn','kwk','kts','kng','grs','gorst','gorsp','sir','skrt','skrb','stn','snb','sup','sps','sma','siu','tik','mzrr','diw','tmm','tie']);
+var json_name_list = ['spd','stm','pwr','knj','ksk','scenario'].concat( ['ain','agnst','agnsd','adm','wnn','wk','eag','eis','erk','ogr','krn','kwk','kts','kng','grs','gorst','gorsp','sir','skrt','skrb','stn','snb','sup','sps','sma','siu','tik','mzrr','diw','tmm','tie','tuk','tos','nis','nrtt']);
 fetch('https://sochigusa.github.io/Uma-ggrks/json/card_type.json', {cache:'no-store'})
 	.then(response => response.json())
 	.then(json => card_type_json = json);
