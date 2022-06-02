@@ -578,7 +578,7 @@
   },
   {
     "Title": "\u30d6\u30e9\u30a4\u30a2\u30f3\u304c\u30e4\u30ad\u30e2\u30c1\uff1f",
-    "ID": "bri",
+    "ID": "briang",
     "Event": {
       "Type": "\u30e1\u30a4\u30f3\u30b7\u30ca\u30ea\u30aa",
       "Scenario": " \u30af\u30e9\u30a4\u30de\u30c3\u30af\u30b9"
@@ -987,7 +987,7 @@
   },
   {
     "Title": "\u51f8\u51f9\u30b3\u30f3\u30d3",
-    "ID": "dkb",
+    "ID": "dkbkk",
     "Event": {
       "Type": "\u30e1\u30a4\u30f3\u30b7\u30ca\u30ea\u30aa",
       "Scenario": " \u30af\u30e9\u30a4\u30de\u30c3\u30af\u30b9"

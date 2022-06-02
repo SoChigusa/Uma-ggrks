@@ -1182,7 +1182,7 @@
   },
   {
     "Title": "\u5c4a\u304b\u306a\u3044\u300e\u30ad\u30e2\u30c1\u300f",
-    "ID": "tdk",
+    "ID": "tdkn",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30c0\u30a4\u30ef\u30b9\u30ab\u30fc\u30ec\u30c3\u30c8",
@@ -1925,7 +1925,7 @@
   },
   {
     "Title": "\u30d2\u30b7\u30a2\u30de\u59d0\u3055\u3093\u596e\u95d8\u8a18\uff5e\u554f\u984c\u5150\u7de8\uff5e",
-    "ID": "hsam",
+    "ID": "hsammnd",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30d2\u30b7\u30a2\u30de\u30be\u30f3",
