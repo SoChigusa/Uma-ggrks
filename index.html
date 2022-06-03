@@ -12,6 +12,57 @@
 
 	<div class="content">
 		<h1>Uma ggrks</h1>
+		<div class="modal-overlay closed" id="modal-overlay"></div>
+		<div class="modal closed" id="modal">
+			<button class="close-button" id="close-button">閉じる</button>
+			<div class="modal-guts">
+				<h4>[uma] Uma ggrks とは？</h4>
+				<p>
+					Uma ggrks はゲーム『ウマ娘 プリティーダービー』のイベント選択肢チェッカーです。
+					全てのイベントを3文字以上のアルファベットのIDで調べることができます。
+					各イベントのIDはイベントの名前を使って次のようなルールで決まっています。
+				</p>
+				<h4>[ibn] イベントIDのルール</h4>
+				<ul>
+					<li>IDの付け方の基本は、「ググレカス」→ <b>[ggrks]</b> のように名前の各文字の最初のアルファベットを取って並べることです。</li>
+					<li>IDは最低3文字の長さで、全て小文字です。</li>
+					<ul>
+						<li>例：「辿り着いたよミラクルハッピー！」→ <b>[tdr]</b></li>
+					</ul>
+					<li>IDは他のIDと同じにならないように3文字より長くなることがあります。</li>
+					<ul>
+						<li>例：「プリンセス、殴る！」→ <b>[prnssn]</b></li>
+						<li>例：「プリンセス、逃走！」→ <b>[prnsst]</b></li>
+					</ul>
+					<li>IDが3文字に満たない場合、後ろにキャラ名のIDをくっつけます。</li>
+					<ul>
+						<li>例：ナリタブライアンの「岐」→ <b>[knrtb]</b></li>
+					</ul>
+					<li>小さい「ぁぃぅぇぉ」は普通の「あいうえお」として考えます。</li>
+					<ul>
+						<li>例：「あぁ、友情」→ <b>[aay]</b></li>
+					</ul>
+					<li>記号やスペース、小さい「っゃゅょ」などは無視します。</li>
+					<ul>
+						<li>例：「//絶対欲しい」→ <b>[zti]</b></li>
+					</ul>
+					<li>数字やアルファベットはそのままIDに使います。</li>
+					<ul>
+						<li>例：「08:36/朝寝坊、やばっ」→ <b>[083]</b></li>
+						<li>例：「TO THE NO.1」→ <b>[tot]</b></li>
+					</ul>
+					<li>伸ばし棒「ー」は発音を考えて「あいうえお」で置き換えます。</li>
+					<ul>
+						<li>例：「ターボは強いんだもん！」→ <b>[tab]</b></li>
+					</ul>
+					<li>特殊な例として、ちょ「cho」じゃ「ja」ヴィ「vi」ウィ「wi」があります。</li>
+					<ul>
+						<li>例：「カイチョーとダジャレ」→ <b>[kicot]</b></li>
+					</ul>
+				</ul>
+			</div>
+		</div>
+		<button id="open-button" class="open-button">ヘルプ</button>
 		<div>
 			<label>
 				<input type="checkbox" id="is_clear_by_enter" checked>
@@ -25,6 +76,8 @@
 		</div>
 		<input type="text" id="idText" value="">
 		<div id='maintable'></div>
+
+		<script type="text/javascript" src="js/popup.js"></script>
 		<script type="text/javascript" src="js/choices.js"></script>
 	</div>
 
