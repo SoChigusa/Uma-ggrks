@@ -20,11 +20,9 @@
 	overflow-y: auto;
 	overflow-y: scroll;
 }
-
 .closed {
   display: none;
 }
-
 .modal-overlay {
 	position: fixed;
 	top: 0;
@@ -34,40 +32,138 @@
 	z-index: 50;
 	background: rgba(0, 0, 0, 0.6);
 }
-
 .modal-guts {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	overflow: auto;
-	padding: 20px 50px 20px 20px;
+	padding: 20px 20px 20px 20px;
 	box-sizing: border-box;
 }
-
-.modal .close-button {
-	position: absolute;
-	z-index: 1;
-	top: 10px;
-	right: 20px;
-	border: 0;
-	background: black;
-	color: white;
-	padding: 5px 10px;
-	font-size: 1.3rem;
+.modal-guts h4 {
+	margin : 2em 0 1em;
 }
-
+.modal-guts p {
+	line-height: 1.6;
+}
+.modal-guts ul.rules {
+	background : #f7f7f7;
+	padding: 2em;
+}
+.modal-guts ul.examples {
+	margin-bottom: 0.8em;
+}
+.modal-guts li {
+	line-height: 1.6;
+	margin-bottom: 0.3em;
+}
+.modal-guts b {
+	padding: 0.4em;
+}
 .open-button {
 	border: 0;
+	width: 28%;
+	height: 100%;
 	background: #0000ff;
 	color: white;
-	padding: 10px 20px;
+	padding: 5px 20px;
 	border-radius: 10px;
 	font-size: 21px;
+	margin-left: 3%;
+	margin-right: 3%;
 }
-
 .open-button:hover {
 	background: #0000cd;
+}
+
+/* check box */
+.ECM_CheckboxInput {
+  padding: 6px 4px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+	margin : 5px 0 5px;
+}
+.ECM_CheckboxInput-Input {
+  margin: 0;
+  width: 0;
+  opacity: 0;
+}
+.ECM_CheckboxInput:hover{
+  background: rgba(0,0,0,.05) !important;
+}
+.ECM_CheckboxInput-Input:focus + .ECM_CheckboxInput-DummyInput{
+  border: dashed 2px #333333;
+}
+.ECM_CheckboxInput-Input:checked + .ECM_CheckboxInput-DummyInput {
+  background: #333333;
+}
+.ECM_CheckboxInput-Input:checked + .ECM_CheckboxInput-DummyInput::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 4px;
+  border-radius: 2px;
+  transform: translate(-6px, 5px) rotateZ(-135deg);
+  transform-origin: 2px 2px;
+  background: #FFFFFF;
+}
+.ECM_CheckboxInput-Input:checked + .ECM_CheckboxInput-DummyInput::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 76%;
+  height: 4px;
+  border-radius: 2px;
+  transform: translate(-6px, 5px) rotateZ(-45deg);
+  transform-origin: 2px 2px;
+  background: #FFFFFF;
+}
+.ECM_CheckboxInput-DummyInput {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 28px;
+  height: 28px;
+  border: solid 2px transparent;
+  background: rgba(0,0,0, .1);
+  border-radius: 4px;
+}
+.ECM_CheckboxInput-LabelText {
+  margin-left: 12px;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* text box */
+.cp_iptxt {
+	position: relative;
+	width: 100%;
+	margin: 10px 3%;
+}
+.cp_iptxt input[type='text'] {
+	font: 18px/28px sans-serif;
+	box-sizing: border-box;
+	width: 60%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #000000;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+.ef input[type='text']:focus {
+	border: 1px solid #da3c41;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
 }
 
 /* event type strings */
