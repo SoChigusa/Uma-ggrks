@@ -246,7 +246,7 @@
   },
   {
     "Title": "\u30d0\u30af\u30b7\u30f3\u7684\u306a\u8b0e\u89e3\u304d\uff01",
-    "ID": "bks",
+    "ID": "bksnt",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [
@@ -353,7 +353,7 @@
   },
   {
     "Title": "\u5927\u5207\u306a\u65b9\u3068\u4e00\u7dd2\u306b",
-    "ID": "tist",
+    "ID": "tistnk",
     "Event": {
       "Type": "\u80b2\u6210\u30a6\u30de\u5a18",
       "Character": [

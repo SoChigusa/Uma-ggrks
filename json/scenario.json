@@ -600,7 +600,7 @@
   },
   {
     "Title": "\u610f\u5916\u306a\u7f8e\u5316\u59d4\u54e1",
-    "ID": "igi",
+    "ID": "iginb",
     "Event": {
       "Type": "\u30e1\u30a4\u30f3\u30b7\u30ca\u30ea\u30aa",
       "Scenario": " \u30af\u30e9\u30a4\u30de\u30c3\u30af\u30b9"
@@ -713,7 +713,7 @@
   },
   {
     "Title": "\u30a2\u30eb\u30c0\u30f3\u304b\u3089\u306f\u9003\u3052\u5207\u308c\u306a\u3044",
-    "ID": "ard",
+    "ID": "ardnk",
     "Event": {
       "Type": "\u30e1\u30a4\u30f3\u30b7\u30ca\u30ea\u30aa",
       "Scenario": " \u30af\u30e9\u30a4\u30de\u30c3\u30af\u30b9"
