@@ -12,7 +12,7 @@
         },
         {
           "Rarity": "SSR",
-          "Name": "mag!c number"
+          "Name": "mag!c\n\t\t\t\t\t\tnumber"
         },
         {
           "Rarity": "R",
@@ -53,7 +53,7 @@
         },
         {
           "Rarity": "SSR",
-          "Name": "mag!c number"
+          "Name": "mag!c\n\t\t\t\t\t\tnumber"
         },
         {
           "Rarity": "R",
@@ -88,7 +88,7 @@
       "CardType": [
         {
           "Rarity": "SSR",
-          "Name": "mag!c number"
+          "Name": "mag!c\n\t\t\t\t\t\tnumber"
         }
       ]
     },
@@ -1376,7 +1376,7 @@
         },
         {
           "Rarity": "SR",
-          "Name": "Step! Smile! Wink!"
+          "Name": "Step!\n\t\t\t\t\t\tSmile! Wink!"
         }
       ]
     },
@@ -1418,7 +1418,7 @@
         },
         {
           "Rarity": "SR",
-          "Name": "Step! Smile! Wink!"
+          "Name": "Step!\n\t\t\t\t\t\tSmile! Wink!"
         }
       ]
     },
@@ -1449,7 +1449,7 @@
       "CardType": [
         {
           "Rarity": "SSR",
-          "Name": "In my way"
+          "Name": "In my\n\t\t\t\t\t\tway"
         },
         {
           "Rarity": "SR",
@@ -1488,7 +1488,7 @@
       "CardType": [
         {
           "Rarity": "SSR",
-          "Name": "In my way"
+          "Name": "In my\n\t\t\t\t\t\tway"
         },
         {
           "Rarity": "SR",
@@ -1527,7 +1527,7 @@
       "CardType": [
         {
           "Rarity": "SSR",
-          "Name": "In my way"
+          "Name": "In my\n\t\t\t\t\t\tway"
         }
       ]
     },
@@ -2466,7 +2466,7 @@
   },
   {
     "Title": "#Curren\u307f\u3064\u3051\u305f",
-    "ID": "curr",
+    "ID": "currm",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30ab\u30ec\u30f3\u30c1\u30e3\u30f3",
