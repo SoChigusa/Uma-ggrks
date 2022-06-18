@@ -233,7 +233,7 @@
         },
         {
           "Rarity": "SSR",
-          "Name": "SPECIAL DREAMERS\uff01\uff01"
+          "Name": "SPECIAL\n\t\t\t\t\t\tDREAMERS\uff01\uff01"
         },
         {
           "Rarity": "R",
@@ -272,7 +272,7 @@
         },
         {
           "Rarity": "SSR",
-          "Name": "SPECIAL DREAMERS\uff01\uff01"
+          "Name": "SPECIAL\n\t\t\t\t\t\tDREAMERS\uff01\uff01"
         },
         {
           "Rarity": "R",
@@ -1502,7 +1502,7 @@
       "CardType": [
         {
           "Rarity": "SR",
-          "Name": "Step! Smile! Wink!"
+          "Name": "Step!\n\t\t\t\t\t\tSmile! Wink!"
         }
       ]
     },
@@ -1584,6 +1584,36 @@
         "Results": [
           "\u300c\u975e\u6839\u5e79\u8ddd\u96e2\u25ef\u300d\u306e\u30d2\u30f3\u30c8Lv+1",
           "\u30c6\u30a4\u30a8\u30e0\u30aa\u30da\u30e9\u30aa\u30fc\u306e\u7d46\u30b2\u30fc\u30b8+5"
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "\u773c\u93e1\u5f0f\u30a6\u30de\u30c9\u30eb\u30bd\u30f3\u30b0\u2606",
+    "ID": "mgns",
+    "Event": {
+      "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
+      "Character": "\u30a4\u30af\u30ce\u30c7\u30a3\u30af\u30bf\u30b9",
+      "CardType": [
+        {
+          "Rarity": "SSR",
+          "Name": "\u611b\u3059\u3079\u304d\u91d1\u862d\u306e\u3064\u3069\u3044"
+        }
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "\u3059\u3054\u3044\u7ba1\u7406\u80fd\u529b\u3060\u3063\u305f\u306a\u3001\u30a4\u30af\u30ce",
+        "Results": [
+          "\u4f53\u529b+15",
+          "\u30a4\u30af\u30ce\u30c7\u30a3\u30af\u30bf\u30b9\u306e\u7d46\u30b2\u30fc\u30b8+5"
+        ]
+      },
+      {
+        "Choice": "\u6b21\u306f\u6b4c\u306e\u7df4\u7fd2\u3060\u306a\uff01",
+        "Results": [
+          "\u300c\u7df4\u7fd2\u4e0a\u624b\u25ef\u300d\u7372\u5f97",
+          "\u30a4\u30af\u30ce\u30c7\u30a3\u30af\u30bf\u30b9\u306e\u7d46\u30b2\u30fc\u30b8+10"
         ]
       }
     ]
