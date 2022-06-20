@@ -12,13 +12,14 @@ function cardType(name) {
 function genTable(json, id) {
 
 	// show only if id_length >= 3 or is_show_all
-	var data = [];
 	let is_show_all = document.getElementById('is_show_all');
 	if (id.length >= 3 || is_show_all.checked) {
 		// filter the data by input id
 		var data = json.filter(function (item, index) {
 			if ((item.ID).indexOf(id) == 0) return true;
 		});
+	} else {
+		var data = json
 	}
 
 	for (var ev of data) {
@@ -52,6 +53,7 @@ function genTable(json, id) {
 				var name = ev.Event.Character + '(' + ev_type.Rarity + ')' + '［' + ev_type.Name + '］';
 				var p = document.createElement('p');
 				p.textContent = name;
+				console.log(name);
 				p.classList.add(cardType(name));
 				p.classList.add('source');
 				event_div.appendChild(p);
