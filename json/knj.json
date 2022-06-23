@@ -1505,5 +1505,34 @@
         }
       }
     ]
+  },
+  {
+    "Title": "\u3054\u98ef\u3092\u3001\u8ae6\u3081\u306a\u3044\u30fc\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7",
+    "ID": "ghnw",
+    "Event": {
+      "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
+      "Character": "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7",
+      "CardType": [
+        {
+          "Rarity": "SR",
+          "Name": "\u597d\u304d\u306a\u3093\u3060\u3001\u3054\u98ef\u304c"
+        }
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "\u6c17\u306b\u305b\u305a\u98df\u3079\u305f\u65b9\u304c\u3044\u3044",
+        "Results": [
+          "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7\u306e\u7d46\u30b2\u30fc\u30b8+15"
+        ]
+      },
+      {
+        "Choice": "\u541b\u304c\u305f\u304f\u3055\u3093\u98df\u3079\u308b\u306e\u306f\u7406\u7531\u304c\u3042\u308b\u3068\u601d\u3046",
+        "Results": [
+          "\u6839\u6027+15",
+          "\u30aa\u30b0\u30ea\u30ad\u30e3\u30c3\u30d7\u306e\u7d46\u30b2\u30fc\u30b8+5"
+        ]
+      }
+    ]
   }
 ]
