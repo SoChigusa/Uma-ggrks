@@ -19,7 +19,7 @@ function genTable(json, id) {
 			if ((item.ID).indexOf(id) == 0) return true;
 		});
 	} else {
-		var data = json
+		var data = [];
 	}
 
 	for (var ev of data) {
@@ -53,7 +53,6 @@ function genTable(json, id) {
 				var name = ev.Event.Character + '(' + ev_type.Rarity + ')' + '［' + ev_type.Name + '］';
 				var p = document.createElement('p');
 				p.textContent = name;
-				console.log(name);
 				p.classList.add(cardType(name));
 				p.classList.add('source');
 				event_div.appendChild(p);
