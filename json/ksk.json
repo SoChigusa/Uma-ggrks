@@ -632,7 +632,8 @@
         "Results": [
           "\u4f53\u529b\u221210",
           "\u30b9\u30bf\u30df\u30ca+5",
-          "\u30b9\u30ad\u30ebPt+20"
+          "\u30b9\u30ad\u30ebPt+20",
+          "\u30d5\u30a1\u30a4\u30f3\u30e2\u30fc\u30b7\u30e7\u30f3\u306e\u7d46\u30b2\u30fc\u30b8+5"
         ]
       }
     ]
@@ -872,7 +873,7 @@
   },
   {
     "Title": "\u559c\u3093\u3067\u304f\u308c\u308b\u304b\u306a\uff65\uff65\uff65\uff65\uff65\uff65",
-    "ID": "yrk",
+    "ID": "yrkn",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
       "Character": "\u30e1\u30b8\u30ed\u30c9\u30fc\u30d9\u30eb",

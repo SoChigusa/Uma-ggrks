@@ -588,7 +588,7 @@
     "ID": "dkm",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
-      "Character": "\u30b5\u30a4\u30ec\u30f3\u30b9\u30b9\u30ba\u30ab",
+      "Character": "\u30c1\u30fc\u30e0\uff1c\u30b7\u30ea\u30a6\u30b9\uff1e",
       "CardType": [
         {
           "Rarity": "SSR",
@@ -605,6 +605,10 @@
         {
           "Rarity": "R",
           "Name": "\u30c8\u30ec\u30bb\u30f3\u5b66\u5712"
+        },
+        {
+          "Rarity": "SSR",
+          "Name": "\u7d21\u304c\u308c\u3066\u3086\u304f\u601d\u3044"
         }
       ]
     },
@@ -631,7 +635,7 @@
     "ID": "dusr",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
-      "Character": "\u30b5\u30a4\u30ec\u30f3\u30b9\u30b9\u30ba\u30ab",
+      "Character": "\u30c1\u30fc\u30e0\uff1c\u30b7\u30ea\u30a6\u30b9\uff1e",
       "CardType": [
         {
           "Rarity": "SSR",
@@ -648,6 +652,10 @@
         {
           "Rarity": "R",
           "Name": "\u30c8\u30ec\u30bb\u30f3\u5b66\u5712"
+        },
+        {
+          "Rarity": "SSR",
+          "Name": "\u7d21\u304c\u308c\u3066\u3086\u304f\u601d\u3044"
         }
       ]
     },
@@ -923,7 +931,7 @@
     "ID": "mgr",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
-      "Character": "\u30b9\u30da\u30b7\u30e3\u30eb\u30a6\u30a3\u30fc\u30af",
+      "Character": "\u30c1\u30fc\u30e0\uff1c\u30b7\u30ea\u30a6\u30b9\uff1e",
       "CardType": [
         {
           "Rarity": "SSR",
@@ -940,6 +948,10 @@
         {
           "Rarity": "R",
           "Name": "\u30c8\u30ec\u30bb\u30f3\u5b66\u5712"
+        },
+        {
+          "Rarity": "SSR",
+          "Name": "\u7d21\u304c\u308c\u3066\u3086\u304f\u601d\u3044"
         }
       ]
     },
@@ -965,7 +977,7 @@
     "ID": "arm",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
-      "Character": "\u30b9\u30da\u30b7\u30e3\u30eb\u30a6\u30a3\u30fc\u30af",
+      "Character": "\u30c1\u30fc\u30e0\uff1c\u30b7\u30ea\u30a6\u30b9\uff1e",
       "CardType": [
         {
           "Rarity": "SSR",
@@ -982,6 +994,10 @@
         {
           "Rarity": "R",
           "Name": "\u30c8\u30ec\u30bb\u30f3\u5b66\u5712"
+        },
+        {
+          "Rarity": "SSR",
+          "Name": "\u7d21\u304c\u308c\u3066\u3086\u304f\u601d\u3044"
         }
       ]
     },
@@ -1657,7 +1673,7 @@
     "ID": "sitkiy",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
-      "Character": "\u30ca\u30ea\u30bf\u30d6\u30e9\u30a4\u30a2\u30f3",
+      "Character": "\u30c1\u30fc\u30e0\uff1c\u30b7\u30ea\u30a6\u30b9\uff1e",
       "CardType": [
         {
           "Rarity": "SSR",
@@ -1670,6 +1686,10 @@
         {
           "Rarity": "R",
           "Name": "\u30c8\u30ec\u30bb\u30f3\u5b66\u5712"
+        },
+        {
+          "Rarity": "SSR",
+          "Name": "\u7d21\u304c\u308c\u3066\u3086\u304f\u601d\u3044"
         }
       ]
     },
@@ -1696,7 +1716,7 @@
     "ID": "krunrt",
     "Event": {
       "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
-      "Character": "\u30ca\u30ea\u30bf\u30d6\u30e9\u30a4\u30a2\u30f3",
+      "Character": "\u30c1\u30fc\u30e0\uff1c\u30b7\u30ea\u30a6\u30b9\uff1e",
       "CardType": [
         {
           "Rarity": "SSR",
@@ -1709,6 +1729,10 @@
         {
           "Rarity": "R",
           "Name": "\u30c8\u30ec\u30bb\u30f3\u5b66\u5712"
+        },
+        {
+          "Rarity": "SSR",
+          "Name": "\u7d21\u304c\u308c\u3066\u3086\u304f\u601d\u3044"
         }
       ]
     },

@@ -95,7 +95,7 @@
   },
   {
     "Title": "\u30c8\u30ec\u30fc\u30ca\u30fc\u4e26\u307f\u306e\u77e5\u8b58",
-    "ID": "tren",
+    "ID": "trenan",
     "Event": {
       "Type": "\u30e1\u30a4\u30f3\u30b7\u30ca\u30ea\u30aa",
       "Scenario": " URA\u30d5\u30a1\u30a4\u30ca\u30eb\u30ba"
@@ -350,7 +350,7 @@
   },
   {
     "Title": "\u30de\u30fc\u30d9\u30e9\u30b9\u58f2\u308a\u306e\u5c11\u5973",
-    "ID": "mab",
+    "ID": "mabrsu",
     "Event": {
       "Type": "\u30e1\u30a4\u30f3\u30b7\u30ca\u30ea\u30aa",
       "Scenario": " \u30af\u30e9\u30a4\u30de\u30c3\u30af\u30b9"

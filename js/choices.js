@@ -140,7 +140,7 @@ function keydown(event) {
 
 // load and save card json database
 let card_type_json, event_json = {};
-var json_name_list = ['spd', 'stm', 'pwr', 'knj', 'ksk', 'scenario'].concat(['ain', 'agnst', 'agnsd', 'adm', 'inr', 'wnn', 'wk', 'eag', 'eis', 'erk', 'ogr', 'krn', 'kwk', 'kts', 'kng', 'grs', 'gorst', 'gorsp', 'sir', 'skrt', 'skrb', 'stn', 'snb', 'sii', 'sup', 'sps', 'sma', 'siu', 'tik', 'diw', 'tmm', 'tie', 'tuk', 'tos', 'nis', 'nrtt', 'nrtb', 'nsn', 'hru', 'hsak', 'hsam', 'bwh', 'fin', 'hzk', 'mtknt', 'mtknh', 'myn', 'mrz', 'mnh', 'mhn', 'mis', 'mzra', 'mzrd', 'mzrp', 'mzrb', 'mzrm', 'mzrr', 'yen', 'ris']);
+var json_name_list = ['spd', 'stm', 'pwr', 'knj', 'ksk', 'friend', 'scenario'].concat(['ain', 'agnst', 'agnsd', 'adm', 'inr', 'wnn', 'wk', 'eag', 'eis', 'erk', 'ogr', 'krn', 'kwk', 'kts', 'kng', 'grs', 'gorst', 'gorsp', 'sir', 'skrt', 'skrb', 'stn', 'snb', 'sii', 'sup', 'sps', 'sma', 'siu', 'tik', 'diw', 'tmm', 'tie', 'tuk', 'tos', 'nis', 'nrtt', 'nrtb', 'nsn', 'hru', 'hsak', 'hsam', 'bwh', 'fin', 'hzk', 'mtknt', 'mtknh', 'myn', 'mrz', 'mnh', 'mhn', 'mis', 'mzra', 'mzrd', 'mzrp', 'mzrb', 'mzrm', 'mzrr', 'yen', 'ris']);
 fetch('https://sochigusa.github.io/Uma-ggrks/json/card_type.json', { cache: 'no-store' })
 	.then(response => response.json())
 	.then(json => card_type_json = json);

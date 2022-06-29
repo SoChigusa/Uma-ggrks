@@ -102,7 +102,7 @@ for character in ['ain', 'agnst', 'agnsd', 'adm', 'inr', 'wnn', 'wk', 'eag', 'ei
                                   'json/'+character+'.json', {"Type": "Character"})
 
 # support card events
-for card_type in ['spd', 'stm', 'pwr', 'knj', 'ksk']:
+for card_type in ['spd', 'stm', 'pwr', 'knj', 'ksk', 'friend']:
     card_dict_all += html_to_json('html/spt/'+card_type+'.html',
                                   'json/'+card_type+'.json', {"Type": "Support Card"})
 
