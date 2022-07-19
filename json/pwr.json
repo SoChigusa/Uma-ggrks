@@ -471,6 +471,10 @@
           "Name": "\u30d1\u30c3\u30b7\u30e7\u30f3\u30c1\u30e3\u30f3\u30d4\u30aa\u30fc\u30ca\uff01"
         },
         {
+          "Rarity": "SSR",
+          "Name": "\u30ad\u30e9\u30ad\u30e9\u30ab\u30b1\u30eb\u221e"
+        },
+        {
           "Rarity": "R",
           "Name": "\u30c8\u30ec\u30bb\u30f3\u5b66\u5712"
         }
@@ -504,6 +508,10 @@
         {
           "Rarity": "SSR",
           "Name": "\u30d1\u30c3\u30b7\u30e7\u30f3\u30c1\u30e3\u30f3\u30d4\u30aa\u30fc\u30ca\uff01"
+        },
+        {
+          "Rarity": "SSR",
+          "Name": "\u30ad\u30e9\u30ad\u30e9\u30ab\u30b1\u30eb\u221e"
         },
         {
           "Rarity": "R",
@@ -2087,6 +2095,116 @@
           "\u3084\u308b\u6c17+2",
           "\u30d0\u30c3\u30c9\u30b3\u30f3\u30c7\u30a3\u30b7\u30e7\u30f3\u89e3\u6d88",
           "\u30cf\u30eb\u30a6\u30e9\u30e9\u306e\u7d46\u30b2\u30fc\u30b8+5"
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "\u5cfb\u53b3\u306b\u3057\u3066\u512a\u6e25",
+    "ID": "sngn",
+    "Event": {
+      "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
+      "Character": "\u30a8\u30a2\u30b0\u30eb\u30fc\u30f4",
+      "CardType": [
+        {
+          "Rarity": "SSR",
+          "Name": "\u7406\u60f3\u3078\u5411\u304b\u3046\u9752\u5d50"
+        },
+        {
+          "Rarity": "SR",
+          "Name": "\u526f\u4f1a\u9577\u306e\u4e00\u523a\u3057"
+        },
+        {
+          "Rarity": "R",
+          "Name": "\u30c8\u30ec\u30bb\u30f3\u5b66\u5712"
+        }
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "\u3044\u3064\u3082\u53b3\u3057\u304f\u63a5\u3057\u3066\u3044\u308b\u306e\u304b\uff1f",
+        "Results": [
+          "\u300c\u81e8\u6a5f\u5fdc\u5909\u300d\u306e\u30d2\u30f3\u30c8Lv+1",
+          "\u30a8\u30a2\u30b0\u30eb\u30fc\u30f4\u306e\u7d46\u30b2\u30fc\u30b8+5"
+        ]
+      },
+      {
+        "Choice": "\u3088\u304f\u76f8\u624b\u3092\u89b3\u5bdf\u3057\u3066\u3044\u308b\u3093\u3060\u306a",
+        "Results": [
+          "\u4f53\u529b+10",
+          "\u8ce2\u3055+10"
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "\u4fca\u654f\u306b\u3057\u3066\u525b\u8155",
+    "ID": "snbn",
+    "Event": {
+      "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
+      "Character": "\u30a8\u30a2\u30b0\u30eb\u30fc\u30f4",
+      "CardType": [
+        {
+          "Rarity": "SSR",
+          "Name": "\u7406\u60f3\u3078\u5411\u304b\u3046\u9752\u5d50"
+        },
+        {
+          "Rarity": "SR",
+          "Name": "\u526f\u4f1a\u9577\u306e\u4e00\u523a\u3057"
+        },
+        {
+          "Rarity": "R",
+          "Name": "\u30c8\u30ec\u30bb\u30f3\u5b66\u5712"
+        }
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "1\u4eba\u3067\u3053\u308c\u3092\u9078\u3076\u306b\u306f\u30d1\u30ef\u30fc\u304c\u3044\u308b\u306a",
+        "Results": [
+          "\u30d1\u30ef\u30fc+15",
+          "\u30a8\u30a2\u30b0\u30eb\u30fc\u30f4\u306e\u7d46\u30b2\u30fc\u30b8+5"
+        ]
+      },
+      {
+        "Choice": "\u3053\u306e\u91cf\u3092\u3055\u3070\u304f\u306a\u3089\u3001\u76f8\u5f53\u6025\u304c\u306a\u3044\u3068......",
+        "Results": [
+          "\u30b9\u30d4\u30fc\u30c9+10",
+          "\u30b9\u30bf\u30df\u30ca+5",
+          "\u30a8\u30a2\u30b0\u30eb\u30fc\u30f4\u306e\u7d46\u30b2\u30fc\u30b8+5"
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "\u3042\u306a\u305f\u304c\u3044\u3066\u304f\u308c\u305f\u304b\u3089",
+    "ID": "antg",
+    "Event": {
+      "Type": "\u30b5\u30dd\u30fc\u30c8\u30ab\u30fc\u30c9",
+      "Character": "\u30a8\u30a2\u30b0\u30eb\u30fc\u30f4",
+      "CardType": [
+        {
+          "Rarity": "SSR",
+          "Name": "\u7406\u60f3\u3078\u5411\u304b\u3046\u9752\u5d50"
+        }
+      ]
+    },
+    "Choices": [
+      {
+        "Choice": "\u4f55\u3060\u304b\u5b09\u3057\u305d\u3046\u3060\u306a",
+        "Results": [
+          "\u30d1\u30ef\u30fc+7",
+          "\u8ce2\u3055+7",
+          "\u300c\u30ef\u30f3\u30c1\u30e3\u30f3\u30b9\u300d\u306e\u30d2\u30f3\u30c8Lv+1",
+          "\u30a8\u30a2\u30b0\u30eb\u30fc\u30f4\u306e\u7d46\u30b2\u30fc\u30b8+5"
+        ]
+      },
+      {
+        "Choice": "\u3088\u3044\u591c\u3060\u306a",
+        "Results": [
+          "\u30b9\u30ad\u30ebPt+10",
+          "\u300c\u4e0a\u6607\u6c17\u6d41\u300d\u306e\u30d2\u30f3\u30c8Lv+1",
+          "\u30a8\u30a2\u30b0\u30eb\u30fc\u30f4\u306e\u7d46\u30b2\u30fc\u30b8+5"
         ]
       }
     ]
