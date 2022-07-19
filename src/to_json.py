@@ -97,7 +97,7 @@ def duplication_check(card_dict):
 card_dict_all = []
 
 # character events
-for character in ['ain', 'agnst', 'agnsd', 'adm', 'inr', 'wnn', 'wk', 'eag', 'eis', 'erk', 'ogr', 'krn', 'kwk', 'kts', 'kng', 'grs', 'gorst', 'gorsp', 'sir', 'skrt', 'skrb', 'stn', 'snb', 'sii', 'sup', 'sps', 'sma', 'siu', 'tik', 'diw', 'tmm', 'tie', 'tuk', 'tos', 'nis', 'nrtt', 'nrtb', 'nsn', 'hru', 'hsak', 'hsam', 'bwh', 'fin', 'hzk', 'mtknt', 'mtknh', 'myn', 'mrz', 'mnh', 'mhn', 'mis', 'mzra', 'mzrd', 'mzrp', 'mzrb', 'mzrm', 'mzrr', 'yen', 'ris']:
+for character in ['ain', 'agnst', 'agnsd', 'adm', 'inr', 'wnn', 'wk', 'eag', 'eas', 'eis', 'erk', 'ogr', 'krn', 'kwk', 'kts', 'kng', 'grs', 'gorst', 'gorsp', 'sir', 'skrt', 'skrb', 'stn', 'snb', 'sii', 'sup', 'sps', 'sma', 'siu', 'tik', 'diw', 'tmm', 'tie', 'tuk', 'tos', 'nis', 'nrtt', 'nrtb', 'nsn', 'hru', 'hsak', 'hsam', 'bwh', 'fin', 'hzk', 'mtknt', 'mtknh', 'myn', 'mrz', 'mnh', 'mhn', 'mis', 'mzra', 'mzrd', 'mzrp', 'mzrb', 'mzrm', 'mzrr', 'yen', 'ris']:
     card_dict_all += html_to_json('html/iks/'+character+'.html',
                                   'json/'+character+'.json', {"Type": "Character"})
 
